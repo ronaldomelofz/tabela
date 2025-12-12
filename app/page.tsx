@@ -129,47 +129,6 @@ export default function Home() {
           </CardContent>
         </Card>
 
-        {/* Statistics Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
-          <Card className="border-0 shadow-md bg-gradient-to-br from-blue-500 to-blue-600 text-white">
-            <CardHeader className="pb-3">
-              <CardDescription className="text-blue-100">
-                Total de Produtos
-              </CardDescription>
-              <CardTitle className="text-3xl font-bold">
-                {filteredProdutos.length}
-              </CardTitle>
-            </CardHeader>
-          </Card>
-
-          <Card className="border-0 shadow-md bg-gradient-to-br from-green-500 to-green-600 text-white">
-            <CardHeader className="pb-3">
-              <CardDescription className="text-green-100">
-                Itens em Estoque
-              </CardDescription>
-              <CardTitle className="text-3xl font-bold">
-                {filteredProdutos.reduce((acc, p) => acc + p.estoque, 0)}
-              </CardTitle>
-            </CardHeader>
-          </Card>
-
-          <Card className="border-0 shadow-md bg-gradient-to-br from-purple-500 to-purple-600 text-white">
-            <CardHeader className="pb-3">
-              <CardDescription className="text-purple-100">
-                Valor Total
-              </CardDescription>
-              <CardTitle className="text-3xl font-bold">
-                {formatCurrency(
-                  filteredProdutos.reduce(
-                    (acc, p) => acc + p.valor * p.estoque,
-                    0
-                  )
-                )}
-              </CardTitle>
-            </CardHeader>
-          </Card>
-        </div>
-
         {/* Products Table */}
         <Card className="shadow-lg border-0">
           <CardHeader>
