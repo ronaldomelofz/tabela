@@ -180,14 +180,9 @@ export default function Home() {
                           {formatCurrency(produto.valor)}
                         </TableCell>
                         <TableCell className="text-right">
-                          <div className="flex flex-col items-end">
-                            <span className="font-semibold text-green-600">
-                              {formatCurrency(calcularValorAVista(produto.valor))}
-                            </span>
-                            <span className="text-xs text-gray-500">
-                              Economia: {formatCurrency(produto.valor * 0.1)}
-                            </span>
-                          </div>
+                          <span className="font-semibold text-green-600">
+                            {formatCurrency(calcularValorAVista(produto.valor))}
+                          </span>
                         </TableCell>
                         <TableCell className="text-center font-semibold">
                           {produto.estoque} un.

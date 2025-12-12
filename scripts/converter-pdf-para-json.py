@@ -55,10 +55,17 @@ def extrair_produtos_do_pdf(caminho_pdf):
                     # Remove espaços múltiplos
                     linha_limpa = re.sub(r'\s+', ' ', linha.strip())
                     
-                    # Tenta extrair usando regex
-                    # Padrão: código (alfanumérico) + descrição + valor (número com vírgula/ponto) + estoque (número)
-                    padrao = r'([A-Z0-9\-]+)\s+(.+?)\s+(?:R\$\s*)?(\d+[.,]\d{2})\s+(\d+)'
-                    match = re.search(padrao, linha_limpa, re.IGNORECASE)
+                    # Tenta extrair usando regex - múltiplos padrões
+                    # Padrão 1: código descrição valor estoque
+                    padrao1 = r'^(\d{6})\s+(.+?)\s+(\d+[.,]\d{2})\s+(\d+)$'
+                    # Padrão 2: com R$
+                    padrao2 = r'^(\d{6})\s+(.+?)\s+R\$\s*(\d+[.,]\d{2})\s+(\d+)$'
+                    # Padrão 3: mais flexível
+                    padrao3 = r'(\d{6})\s+(.+?)\s+(?:R\$\s*)?(\d+[.,]\d{2})\s+(\d+)'
+                    
+                    match = (re.search(padrao1, linha_limpa, re.IGNORECASE) or
+                            re.search(padrao2, linha_limpa, re.IGNORECASE) or
+                            re.search(padrao3, linha_limpa, re.IGNORECASE))
                     
                     if match:
                         codigo = match.group(1)
