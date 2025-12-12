@@ -145,66 +145,115 @@ export default function Home() {
           </CardHeader>
           <CardContent className="p-0 sm:p-6">
             {filteredProdutos.length > 0 ? (
-              <div className="overflow-x-auto -mx-3 sm:mx-0">
-                <div className="inline-block min-w-full align-middle">
-                  <div className="overflow-hidden rounded-md border-0 sm:border">
-                    <Table>
-                      <TableHeader>
-                        <TableRow className="bg-gray-50">
-                          <TableHead className="font-semibold text-xs sm:text-sm px-2 sm:px-4 whitespace-nowrap">
-                            Código
-                          </TableHead>
-                          <TableHead className="font-semibold text-xs sm:text-sm px-2 sm:px-4 min-w-[150px]">
-                            Descrição
-                          </TableHead>
-                          <TableHead className="font-semibold text-xs sm:text-sm text-right px-2 sm:px-4 whitespace-nowrap hidden sm:table-cell">
-                            Valor Normal
-                          </TableHead>
-                          <TableHead className="font-semibold text-xs sm:text-sm text-right px-2 sm:px-4 whitespace-nowrap">
-                            <div className="flex items-center justify-end gap-1">
-                              <TrendingUp className="h-3 w-3 sm:h-4 sm:w-4 text-green-600" />
-                              <span className="hidden sm:inline">Valor à Vista</span>
-                              <span className="sm:hidden">Preço</span>
-                            </div>
-                          </TableHead>
-                          <TableHead className="font-semibold text-xs sm:text-sm text-center px-2 sm:px-4 whitespace-nowrap">
-                            Estoque
-                          </TableHead>
-                          <TableHead className="font-semibold text-xs sm:text-sm text-center px-2 sm:px-4 whitespace-nowrap hidden md:table-cell">
-                            Status
-                          </TableHead>
-                        </TableRow>
-                      </TableHeader>
-                      <TableBody>
-                        {filteredProdutos.map((produto) => (
-                          <TableRow key={produto.codigo} className="hover:bg-gray-50">
-                            <TableCell className="font-mono font-semibold text-xs sm:text-sm px-2 sm:px-4 whitespace-nowrap">
-                              {produto.codigo}
-                            </TableCell>
-                            <TableCell className="font-medium text-xs sm:text-sm px-2 sm:px-4">
-                              {produto.descricao}
-                            </TableCell>
-                            <TableCell className="text-right text-gray-600 text-xs sm:text-sm px-2 sm:px-4 whitespace-nowrap hidden sm:table-cell">
-                              {formatCurrency(produto.valor)}
-                            </TableCell>
-                            <TableCell className="text-right px-2 sm:px-4 whitespace-nowrap">
-                              <span className="font-semibold text-green-600 text-xs sm:text-sm">
-                                {formatCurrency(calcularValorAVista(produto.valor))}
-                              </span>
-                            </TableCell>
-                            <TableCell className="text-center font-semibold text-xs sm:text-sm px-2 sm:px-4 whitespace-nowrap">
-                              {produto.estoque}
-                            </TableCell>
-                            <TableCell className="text-center px-2 sm:px-4 whitespace-nowrap hidden md:table-cell">
-                              {getEstoqueBadge(produto.estoque)}
-                            </TableCell>
-                          </TableRow>
-                        ))}
-                      </TableBody>
-                    </Table>
-                  </div>
+              <>
+                {/* Mobile - Cards */}
+                <div className="block sm:hidden space-y-3 p-3">
+                  {filteredProdutos.map((produto) => (
+                    <div
+                      key={produto.codigo}
+                      className="bg-white border rounded-lg p-4 shadow-sm hover:shadow-md transition-shadow"
+                    >
+                      {/* Cabeçalho do Card */}
+                      <div className="flex justify-between items-start mb-3">
+                        <div>
+                          <span className="text-xs text-gray-500">Código</span>
+                          <p className="font-mono font-bold text-sm text-gray-900">
+                            {produto.codigo}
+                          </p>
+                        </div>
+                        <div className="text-right">
+                          {getEstoqueBadge(produto.estoque)}
+                        </div>
+                      </div>
+                      
+                      {/* Descrição */}
+                      <h3 className="font-medium text-sm text-gray-900 mb-3">
+                        {produto.descricao}
+                      </h3>
+                      
+                      {/* Informações de Preço */}
+                      <div className="grid grid-cols-2 gap-3 mb-3">
+                        <div className="bg-gray-50 rounded-lg p-2">
+                          <span className="text-xs text-gray-600 block">Valor Normal</span>
+                          <p className="font-semibold text-sm text-gray-900">
+                            {formatCurrency(produto.valor)}
+                          </p>
+                        </div>
+                        <div className="bg-green-50 rounded-lg p-2">
+                          <span className="text-xs text-green-700 block flex items-center gap-1">
+                            <TrendingUp className="h-3 w-3" />
+                            Valor à Vista
+                          </span>
+                          <p className="font-bold text-sm text-green-700">
+                            {formatCurrency(calcularValorAVista(produto.valor))}
+                          </p>
+                        </div>
+                      </div>
+                      
+                      {/* Estoque */}
+                      <div className="flex justify-between items-center pt-2 border-t">
+                        <span className="text-xs text-gray-600">Estoque Disponível</span>
+                        <span className="font-bold text-sm text-gray-900">
+                          {produto.estoque} unidades
+                        </span>
+                      </div>
+                    </div>
+                  ))}
                 </div>
-              </div>
+
+                {/* Desktop - Table */}
+                <div className="hidden sm:block overflow-hidden rounded-md border">
+                  <Table>
+                    <TableHeader>
+                      <TableRow className="bg-gray-50">
+                        <TableHead className="font-semibold">Código</TableHead>
+                        <TableHead className="font-semibold">Descrição</TableHead>
+                        <TableHead className="font-semibold text-right">
+                          Valor Normal
+                        </TableHead>
+                        <TableHead className="font-semibold text-right">
+                          <div className="flex items-center justify-end gap-1">
+                            <TrendingUp className="h-4 w-4 text-green-600" />
+                            Valor à Vista
+                          </div>
+                        </TableHead>
+                        <TableHead className="font-semibold text-center">
+                          Estoque
+                        </TableHead>
+                        <TableHead className="font-semibold text-center">
+                          Status
+                        </TableHead>
+                      </TableRow>
+                    </TableHeader>
+                    <TableBody>
+                      {filteredProdutos.map((produto) => (
+                        <TableRow key={produto.codigo} className="hover:bg-gray-50">
+                          <TableCell className="font-mono font-semibold">
+                            {produto.codigo}
+                          </TableCell>
+                          <TableCell className="font-medium">
+                            {produto.descricao}
+                          </TableCell>
+                          <TableCell className="text-right text-gray-600">
+                            {formatCurrency(produto.valor)}
+                          </TableCell>
+                          <TableCell className="text-right">
+                            <span className="font-semibold text-green-600">
+                              {formatCurrency(calcularValorAVista(produto.valor))}
+                            </span>
+                          </TableCell>
+                          <TableCell className="text-center font-semibold">
+                            {produto.estoque} un.
+                          </TableCell>
+                          <TableCell className="text-center">
+                            {getEstoqueBadge(produto.estoque)}
+                          </TableCell>
+                        </TableRow>
+                      ))}
+                    </TableBody>
+                  </Table>
+                </div>
+              </>
             ) : (
               <div className="text-center py-8 sm:py-12 px-4">
                 <Package className="h-10 w-10 sm:h-12 sm:w-12 text-gray-300 mx-auto mb-3" />
