@@ -1,5 +1,23 @@
 [
   {
+    "codigo": "001",
+    "descricao": "TV LED 50 Polegadas Samsung",
+    "valor": 2499.00,
+    "estoque": 15
+  },
+  {
+    "codigo": "002",
+    "descricao": "TV Smart 43 LG",
+    "valor": 1899.00,
+    "estoque": 25
+  },
+  {
+    "codigo": "003",
+    "descricao": "Suporte para TV Universal",
+    "valor": 89.90,
+    "estoque": 50
+  },
+  {
     "codigo": "001949",
     "descricao": "FECHADURA METALICA",
     "valor": 541.25,
@@ -13,14 +31,32 @@
   },
   {
     "codigo": "002428",
-    "descricao": "ELETRODO",
-    "valor": 2.5,
+    "descricao": "ELETRODO 2.5MM",
+    "valor": 2.50,
     "estoque": 6013
   },
   {
     "codigo": "002429",
-    "descricao": "ELETRODO",
+    "descricao": "ELETRODO 3.25MM",
     "valor": 3.25,
     "estoque": 6013
+  },
+  {
+    "codigo": "004",
+    "descricao": "Notebook Dell Inspiron 15",
+    "valor": 3500.00,
+    "estoque": 8
+  },
+  {
+    "codigo": "005",
+    "descricao": "Mouse Logitech MX Master 3",
+    "valor": 450.00,
+    "estoque": 45
+  },
+  {
+    "codigo": "006",
+    "descricao": "Teclado Mecânico Keychron K2",
+    "valor": 650.00,
+    "estoque": 30
   }
 ]
