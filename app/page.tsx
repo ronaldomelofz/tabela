@@ -139,9 +139,6 @@ export default function Home() {
               <Barcode className="h-4 w-4 sm:h-5 sm:w-5" />
               Lista de Produtos
             </CardTitle>
-            <CardDescription className="text-xs sm:text-sm">
-              Todos os produtos com preços à vista (-10%) e estoque disponível
-            </CardDescription>
           </CardHeader>
           <CardContent className="p-0 sm:p-6">
             {filteredProdutos.length > 0 ? (
