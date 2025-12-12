@@ -93,13 +93,13 @@ export default function Home() {
       {/* Main Content */}
       <main className="container mx-auto px-3 sm:px-4 py-4 sm:py-8">
         {/* Search Section */}
-        <Card className="mb-4 sm:mb-8 shadow-lg border-0 bg-white/80 backdrop-blur">
+        <Card className="mb-4 sm:mb-8 shadow-xl border-0 bg-gradient-to-br from-blue-500 to-blue-600 text-white">
           <CardHeader className="pb-3 sm:pb-6">
-            <CardTitle className="flex items-center gap-2 text-base sm:text-lg">
+            <CardTitle className="flex items-center gap-2 text-base sm:text-lg text-white">
               <Search className="h-4 w-4 sm:h-5 sm:w-5" />
               Pesquisar Produtos
             </CardTitle>
-            <CardDescription className="text-xs sm:text-sm">
+            <CardDescription className="text-xs sm:text-sm text-blue-100">
               Busque por código ou descrição do produto
             </CardDescription>
           </CardHeader>
@@ -112,21 +112,21 @@ export default function Home() {
                   placeholder="Digite o código ou descrição..."
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
-                  className="pl-10 h-10 sm:h-10 text-sm sm:text-base"
+                  className="pl-10 h-10 sm:h-10 text-sm sm:text-base bg-white text-gray-900"
                 />
               </div>
               <Button
-                variant="outline"
+                variant="secondary"
                 onClick={() => setSearchTerm("")}
                 disabled={!searchTerm}
-                className="h-10 sm:h-10 text-sm sm:text-base"
+                className="h-10 sm:h-10 text-sm sm:text-base bg-white text-blue-600 hover:bg-blue-50"
               >
                 Limpar
               </Button>
             </div>
             {searchTerm && (
-              <p className="mt-2 text-xs sm:text-sm text-gray-600">
-                {filteredProdutos.length} produto(s) encontrado(s)
+              <p className="mt-2 text-xs sm:text-sm text-white font-medium">
+                ✅ {filteredProdutos.length} produto(s) encontrado(s)
               </p>
             )}
           </CardContent>
