@@ -1,62 +1,38 @@
 [
   {
-    "id": "P0001FPI0Q",
     "codigo": "002764",
-    "nome": "PLACA MDF 06MM ELMO PALMARES 2 FACES",
     "descricao": "PLACA MDF 06MM ELMO PALMARES 2 FACES",
-    "preco": 0.0,
-    "precoCusto": 0.0,
-    "estoque": 0.0,
-    "ativo": false
+    "valor": 0.0,
+    "estoque": 0
   },
   {
-    "id": "P0001FPT4X",
     "codigo": "002765",
-    "nome": "DUBLIN PONTUAL BRONZE",
     "descricao": "DUBLIN PONTUAL BRONZE",
-    "preco": 0.0,
-    "precoCusto": 0.0,
-    "estoque": 0.0,
-    "ativo": false
+    "valor": 0.0,
+    "estoque": 0
   },
   {
-    "id": "P0001FQBUR",
     "codigo": "002767",
-    "nome": "PUXADOR SENSE 128 COBRE FOSCO",
     "descricao": "PUXADOR SENSE 128 COBRE FOSCO",
-    "preco": 0.0,
-    "precoCusto": 0.0,
-    "estoque": 0.0,
-    "ativo": false
+    "valor": 0.0,
+    "estoque": 0
   },
   {
-    "id": "P0001FQ20M",
     "codigo": "002766",
-    "nome": "DUBLIN PONTUAL CROMADO COM PINO",
     "descricao": "DUBLIN PONTUAL CROMADO COM PINO",
-    "preco": 0.0,
-    "precoCusto": 0.0,
-    "estoque": 0.0,
-    "ativo": false
+    "valor": 0.0,
+    "estoque": 0
   },
   {
-    "id": "P0001FR83D",
     "codigo": "002768",
-    "nome": "Chassi: 95PZBN7KPKB081128 - Motor: D4CBH402341 - HR - 2.5 TCI HD EUV CAB CURTA D984 - Lotacao: 2",
     "descricao": "Chassi: 95PZBN7KPKB081128 - Motor: D4CBH402341 - HR - 2.5 TCI HD EUV CAB CURTA D984 - Lotacao: 2",
-    "preco": 0.0,
-    "precoCusto": 0.0,
-    "estoque": 0.0,
-    "ativo": false
+    "valor": 0.0,
+    "estoque": 0
   },
   {
-    "id": "P0001FRLKI",
     "codigo": "002769",
-    "nome": "DISCO CORTE INOX 7 X 1/16 X 7/8",
     "descricao": "DISCO CORTE INOX 7 X 1/16 X 7/8",
-    "preco": 0.0,
-    "precoCusto": 0.0,
-    "estoque": 0.0,
-    "ativo": false
+    "valor": 0.0,
+    "estoque": 0
   }
 ]
