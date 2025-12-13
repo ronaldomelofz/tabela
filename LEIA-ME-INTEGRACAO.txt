@@ -1,0 +1,104 @@
+════════════════════════════════════════════════════════════════
+   🔄 SISTEMA DE ATUALIZAÇÃO AUTOMÁTICA DO SITE - iShop
+════════════════════════════════════════════════════════════════
+
+📚 COMO USAR:
+
+1️⃣ ATUALIZAÇÃO MANUAL (quando quiser atualizar o site):
+   
+   👉 Clique 2x em: ATUALIZAR-SITE.bat
+   
+   O sistema irá:
+   • Ler os produtos mais recentes de Y:\IN
+   • Ler o estoque mais recente de Y:\OUT
+   • Atualizar o arquivo data/produtos.json
+   • Fazer backup automático
+   
+   ⏱️ Tempo estimado: 10-30 segundos
+
+
+2️⃣ ATUALIZAÇÃO AUTOMÁTICA (recomendado!):
+   
+   👉 Clique 2x em: AGENDAR-ATUALIZACAO-AUTOMATICA.bat
+   
+   IMPORTANTE: Execute como Administrador!
+   (Botão direito → Executar como administrador)
+   
+   Escolha a frequência:
+   • A cada 1 hora (recomendado) ⭐
+   • A cada 30 minutos
+   • A cada 2 horas
+   
+   Depois de configurar, o site será atualizado automaticamente!
+
+
+════════════════════════════════════════════════════════════════
+📁 ESTRUTURA DOS DADOS:
+════════════════════════════════════════════════════════════════
+
+Y:\IN\           ← Produtos e preços do iShop
+  └── 25-12-13\  ← Data mais recente (automaticamente detectada)
+      └── VK*.shp (múltiplos arquivos)
+
+Y:\OUT\          ← Estoque do Shop
+  └── 25-12-13\  ← Data mais recente (automaticamente detectada)
+      └── N5*.shp (arquivos de estoque)
+
+O sistema SEMPRE usa a pasta com data mais recente automaticamente!
+
+
+════════════════════════════════════════════════════════════════
+✅ VERIFICAR SE FUNCIONOU:
+════════════════════════════════════════════════════════════════
+
+1. Após executar, verifique se foi criado:
+   📄 data\produtos.json (arquivo atualizado)
+   
+2. Também é criado um backup:
+   📄 data\produtos_backup_DATA_HORA.json
+
+3. O site usará automaticamente o novo arquivo!
+
+
+════════════════════════════════════════════════════════════════
+⚠️ IMPORTANTE:
+════════════════════════════════════════════════════════════════
+
+• A unidade Y:\ precisa estar acessível e mapeada
+• As pastas IN e OUT devem existir em Y:\
+• Não precisa instalar nada! Usa Python já instalado
+• Faz backup automático antes de cada atualização
+
+
+════════════════════════════════════════════════════════════════
+🔧 SOLUÇÃO DE PROBLEMAS:
+════════════════════════════════════════════════════════════════
+
+Problema: "Nenhuma pasta encontrada em IN"
+Solução: Verifique se Y:\IN tem pastas no formato YY-MM-DD
+
+Problema: "Erro ao abrir arquivo"
+Solução: Certifique-se que Y:\ está acessível
+
+Problema: Agendamento não funciona
+Solução: Execute como Administrador (botão direito)
+
+
+════════════════════════════════════════════════════════════════
+📞 ARQUIVOS DO SISTEMA:
+════════════════════════════════════════════════════════════════
+
+ATUALIZAR-SITE.bat                    ← Atualizar manualmente
+AGENDAR-ATUALIZACAO-AUTOMATICA.bat    ← Configurar automático
+scripts\atualizar-site.py             ← Script principal
+data\produtos.json                    ← Dados do site
+LEIA-ME-INTEGRACAO.txt               ← Este arquivo
+
+
+════════════════════════════════════════════════════════════════
+
+Última atualização: 13/12/2025
+Versão: 1.0 - Simples e Automático ✨
+
+════════════════════════════════════════════════════════════════
+
