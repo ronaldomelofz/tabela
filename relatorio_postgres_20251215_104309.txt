@@ -1,0 +1,17 @@
+======================================================================
+ RELATORIO DE INVESTIGACAO - POSTGRESQL
+======================================================================
+Data: 15/12/2025 10:43:09
+
+RESULTADOS:
+
+[OK] Servico PostgreSQL encontrado
+[OK] Instalacoes encontradas: 2
+     - C:\Program Files\PostgreSQL
+     - Z:\Program Files\PostgreSQL
+[OK] Pastas data encontradas: 1
+     - C:\Program Files\PostgreSQL\9.6\data (2061.63 MB)
+[X] Nenhuma conexao sem senha funcionou
+[X] Backup nao foi criado
+
+======================================================================

@@ -173,3 +173,5 @@ O sistema foi configurado para enviar **APENAS** o arquivo `data/produtos.json`,
 
 **Última atualização**: 13/12/2025
 
+
+

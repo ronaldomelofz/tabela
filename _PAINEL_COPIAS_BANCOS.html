@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Controle - Cópias Bancos Alterdata</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 20px;
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .status-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .card {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+        }
+
+        .card h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+            display: flex;
+            align-items: center;
+        }
+
+        .card h3::before {
+            content: "📊";
+            margin-right: 10px;
+            font-size: 1.2em;
+        }
+
+        .card.banco-190 h3::before {
+            content: "📦";
+        }
+
+        .card.banco-principal h3::before {
+            content: "💰";
+        }
+
+        .card p {
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+
+        .card ul {
+            list-style: none;
+            margin-top: 10px;
+        }
+
+        .card ul li {
+            padding: 5px 0;
+            color: #666;
+        }
+
+        .card ul li::before {
+            content: "✓ ";
+            color: #10b981;
+            font-weight: bold;
+            margin-right: 5px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+        }
+
+        .section h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 2em;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 10px;
+        }
+
+        .buttons {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 15px 25px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            border-radius: 10px;
+            text-align: center;
+            font-weight: bold;
+            transition: transform 0.3s, box-shadow 0.3s;
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.6);
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+            box-shadow: 0 5px 15px rgba(16, 185, 129, 0.4);
+        }
+
+        .btn-primary:hover {
+            box-shadow: 0 8px 20px rgba(16, 185, 129, 0.6);
+        }
+
+        .btn-secondary {
+            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+            box-shadow: 0 5px 15px rgba(245, 158, 11, 0.4);
+        }
+
+        .btn-secondary:hover {
+            box-shadow: 0 8px 20px rgba(245, 158, 11, 0.6);
+        }
+
+        .btn-danger {
+            background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+            box-shadow: 0 5px 15px rgba(239, 68, 68, 0.4);
+        }
+
+        .btn-danger:hover {
+            box-shadow: 0 8px 20px rgba(239, 68, 68, 0.6);
+        }
+
+        .alert {
+            background: #fef3c7;
+            border-left: 5px solid #f59e0b;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        .alert h3 {
+            color: #d97706;
+            margin-bottom: 10px;
+        }
+
+        .alert p {
+            color: #78350f;
+            line-height: 1.6;
+        }
+
+        .info-box {
+            background: #dbeafe;
+            border-left: 5px solid #3b82f6;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .info-box h4 {
+            color: #1e40af;
+            margin-bottom: 10px;
+        }
+
+        .info-box p {
+            color: #1e3a8a;
+            line-height: 1.6;
+        }
+
+        .success-box {
+            background: #d1fae5;
+            border-left: 5px solid #10b981;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .success-box h4 {
+            color: #065f46;
+            margin-bottom: 10px;
+        }
+
+        .success-box p {
+            color: #064e3b;
+            line-height: 1.6;
+        }
+
+        footer {
+            background: #f3f4f6;
+            padding: 20px;
+            text-align: center;
+            color: #6b7280;
+        }
+
+        .timestamp {
+            margin-top: 10px;
+            font-size: 0.9em;
+            color: #9ca3af;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.8em;
+            }
+
+            .content {
+                padding: 20px;
+            }
+
+            .buttons {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🗄️ Painel de Controle</h1>
+            <p>Sistema de Cópias Automáticas - Bancos Alterdata</p>
+        </header>
+
+        <div class="content">
+            <!-- Alerta Importante -->
+            <div class="alert">
+                <h3>⚠️ REGRA DE OURO</h3>
+                <p><strong>SEMPRE consulte as CÓPIAS dos bancos, NUNCA os originais!</strong></p>
+                <p>Use BANCOCOPIA190 para ESTOQUE e BANCOCOPIA para PRODUTOS/PREÇOS.</p>
+            </div>
+
+            <!-- Status dos Bancos -->
+            <div class="section">
+                <h2>📊 Status dos Bancos</h2>
+                <div class="status-cards">
+                    <div class="card banco-190">
+                        <h3>BANCOCOPIA190</h3>
+                        <p><strong>Origem:</strong> Z:\Program Files (x86)\Alterdata</p>
+                        <p><strong>Destino:</strong> E:\...\BANCOCOPIA190</p>
+                        <p><strong>Conteúdo:</strong></p>
+                        <ul>
+                            <li>Informações de ESTOQUE</li>
+                            <li>Quantidades disponíveis</li>
+                            <li>Movimentações de estoque</li>
+                        </ul>
+                    </div>
+
+                    <div class="card banco-principal">
+                        <h3>BANCOCOPIA</h3>
+                        <p><strong>Origem:</strong> C:\Program Files (x86)\Alterdata</p>
+                        <p><strong>Destino:</strong> E:\...\BANCOCOPIA</p>
+                        <p><strong>Conteúdo:</strong></p>
+                        <ul>
+                            <li>Cadastro de PRODUTOS</li>
+                            <li>Informações de VALORES/PREÇOS</li>
+                            <li>Novos produtos e exclusões</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Integração Rápida NOVO -->
+            <div class="section">
+                <h2>⚡ Integração Rápida (RECOMENDADO)</h2>
+                <div class="success-box">
+                    <h4>🚀 Sistema Otimizado!</h4>
+                    <p><strong>Novo sistema que copia APENAS as tabelas necessárias!</strong></p>
+                    <p>✅ Muito mais rápido (segundos ao invés de minutos)</p>
+                    <p>✅ Integração em tempo quase real (10, 20, 30 minutos)</p>
+                    <p>✅ Extrai apenas: produto + detalhe</p>
+                </div>
+                
+                <div class="alert" style="background: #e3f2fd; border-left: 5px solid #2196f3; margin: 20px 0;">
+                    <h4 style="color: #1565c0; margin-bottom: 10px;">💡 Como Usar os Botões</h4>
+                    <p style="color: #0d47a1;"><strong>Clique nos botões abaixo</strong> e depois:</p>
+                    <ol style="margin-left: 20px; color: #0d47a1; line-height: 1.8;">
+                        <li>Se o arquivo <strong>baixar</strong> → Vá até a pasta de Downloads e clique duas vezes nele</li>
+                        <li>Se o arquivo <strong>abrir no navegador</strong> → Clique com botão direito no botão → "Salvar link como" → Execute o arquivo baixado</li>
+                        <li><strong>Mais fácil:</strong> Abra a pasta do projeto no Windows Explorer e clique duas vezes nos arquivos .bat diretamente!</li>
+                    </ol>
+                </div>
+                
+                <div class="buttons">
+                    <a href="EXECUTAR-INTEGRACAO-RAPIDA.bat" download class="btn btn-primary">
+                        ⚡ Baixar: Executar Integração
+                    </a>
+                    <a href="AGENDAR-INTEGRACAO-RAPIDA.bat" download class="btn btn-primary">
+                        ⏰ Baixar: Agendar Integração
+                    </a>
+                    <a href="VER-INTEGRACAO-RAPIDA.bat" download class="btn">
+                        👁️ Baixar: Ver Status
+                    </a>
+                    <a href="#" onclick="abrirPastaNoExplorer(); return false;" class="btn" style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);">
+                        📁 Abrir Pasta do Projeto
+                    </a>
+                </div>
+            </div>
+
+            <!-- Sistema Antigo (Cópia Completa) -->
+            <div class="section">
+                <h2>🗄️ Sistema de Cópia Completa (Opcional)</h2>
+                <div class="info-box">
+                    <h4>Sistema anterior - Cópia completa dos bancos</h4>
+                    <p>Use apenas se precisar de todas as tabelas do banco (mais lento).</p>
+                    <p>⭐ Para a maioria dos casos, use a <strong>Integração Rápida</strong> acima.</p>
+                </div>
+                <div class="buttons">
+                    <a href="INICIO-RAPIDO-BANCOS.bat" class="btn">
+                        ▶️ Início Rápido (Cópia Completa)
+                    </a>
+                    <a href="COPIAR-BANCOS-ALTERDATA.bat" class="btn">
+                        📋 Copiar Bancos Completos
+                    </a>
+                    <a href="VER-AGENDAMENTO-COPIAS.bat" class="btn">
+                        👁️ Ver Agendamento Cópias
+                    </a>
+                </div>
+            </div>
+
+            <!-- Comandos Úteis (Agendamento Antigo) -->
+            <div class="section">
+                <h2>⚙️ Gerenciar Agendamentos</h2>
+                <div class="info-box">
+                    <h4>Comandos úteis do sistema</h4>
+                    <p>Gerencie os agendamentos e configurações do sistema.</p>
+                </div>
+                <div class="buttons">
+                    <a href="AGENDAR-COPIA-BANCOS.bat" class="btn btn-secondary">
+                        ⏰ Agendar Cópias Completas
+                    </a>
+                    <a href="VER-AGENDAMENTO-COPIAS.bat" class="btn">
+                        👁️ Ver Agendamento Cópias
+                    </a>
+                    <a href="REMOVER-AGENDAMENTO-COPIAS.bat" class="btn btn-danger">
+                        🗑️ Remover Agendamentos
+                    </a>
+                </div>
+            </div>
+
+            <!-- Consulta e Extração -->
+            <div class="section">
+                <h2>🔍 Visualizar Dados</h2>
+                <div class="info-box">
+                    <h4>Visualizar e verificar dados extraídos</h4>
+                    <p>Veja os dados atuais, logs e status do sistema.</p>
+                </div>
+                <div class="buttons">
+                    <a href="#" onclick="executar('VER-DADOS-ATUAIS.bat')" class="btn">
+                        📊 Ver Dados Atuais (JSON)
+                    </a>
+                    <a href="#" onclick="executar('VER-INTEGRACAO-RAPIDA.bat')" class="btn">
+                        📈 Ver Status e Estatísticas
+                    </a>
+                    <a href="#" onclick="abrirArquivo('data/produtos.json')" class="btn">
+                        📄 Abrir produtos.json
+                    </a>
+                </div>
+            </div>
+
+            <!-- Documentação -->
+            <div class="section">
+                <h2>📚 Documentação</h2>
+                <div class="buttons">
+                    <a href="DOCUMENTACAO-INTEGRACAO-RAPIDA.md" target="_blank" class="btn">
+                        ⚡ Doc Integração Rápida
+                    </a>
+                    <a href="RESUMO-INTEGRACAO-RAPIDA.txt" target="_blank" class="btn">
+                        📄 Resumo Rápido
+                    </a>
+                    <a href="_COMECE_AQUI_INTEGRACAO_RAPIDA.html" target="_blank" class="btn">
+                        🚀 Guia Visual
+                    </a>
+                    <a href="#" onclick="executar('ABRIR-LOGS.bat')" class="btn">
+                        📁 Abrir Pasta de Logs
+                    </a>
+                </div>
+            </div>
+
+            <!-- Comandos Úteis -->
+            <div class="section">
+                <h2>⚡ Comandos Úteis</h2>
+                <div class="info-box">
+                    <h4>Comandos rápidos via terminal</h4>
+                    <p><strong>Desabilitar agendamento:</strong> schtasks /change /tn "CopiarBancosAlterdata" /disable</p>
+                    <p><strong>Habilitar agendamento:</strong> schtasks /change /tn "CopiarBancosAlterdata" /enable</p>
+                    <p><strong>Executar agora:</strong> schtasks /run /tn "CopiarBancosAlterdata"</p>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p><strong>Sistema de Cópias Automáticas - Bancos Alterdata</strong></p>
+            <p>Versão 1.0 | Repositório: <a href="https://github.com/ronaldomelofz/tabela" target="_blank">github.com/ronaldomelofz/tabela</a></p>
+            <p class="timestamp">Última atualização: 15/12/2025</p>
+        </footer>
+    </div>
+
+    <script>
+        function abrirPastaNoExplorer() {
+            const instrucoes = 
+                '📁 COMO ABRIR A PASTA DO PROJETO:\n\n' +
+                '1. Pressione as teclas: Windows + E\n' +
+                '   (Abre o Windows Explorer)\n\n' +
+                '2. Cole este caminho na barra de endereços:\n' +
+                '   E:\\PROJETOS-CURSOR\\TABELAPRECOESTOQUE\n\n' +
+                '3. Pressione Enter\n\n' +
+                '4. Clique duas vezes nos arquivos .bat para executá-los!\n\n' +
+                '────────────────────────────────────\n' +
+                'ARQUIVOS PRINCIPAIS:\n' +
+                '• EXECUTAR-INTEGRACAO-RAPIDA.bat\n' +
+                '• AGENDAR-INTEGRACAO-RAPIDA.bat\n' +
+                '• VER-INTEGRACAO-RAPIDA.bat\n' +
+                '• MENU-PRINCIPAL.bat (menu completo)';
+            
+            alert(instrucoes);
+        }
+
+        function mostrarInstrucoes() {
+            const instrucoes = 
+                '💡 COMO EXECUTAR OS SCRIPTS:\n\n' +
+                'MÉTODO 1 - Direto na pasta (MAIS FÁCIL):\n' +
+                '1. Abra a pasta do projeto no Windows Explorer\n' +
+                '2. Clique duas vezes no arquivo .bat desejado\n' +
+                '3. Pronto! O script será executado\n\n' +
+                'MÉTODO 2 - Menu Principal:\n' +
+                '1. Clique duas vezes em: MENU-PRINCIPAL.bat\n' +
+                '2. Escolha a opção desejada\n' +
+                '3. Digite o número e pressione Enter\n\n' +
+                'MÉTODO 3 - Terminal:\n' +
+                '1. Abra o PowerShell ou CMD\n' +
+                '2. Navegue até a pasta do projeto\n' +
+                '3. Execute: python scripts\\integracao-rapida-alterdata.py\n\n' +
+                '────────────────────────────────────\n' +
+                'Os botões deste painel baixam os arquivos.\n' +
+                'Depois de baixar, execute-os!';
+            
+            alert(instrucoes);
+        }
+
+        // Mostrar instruções ao carregar pela primeira vez
+        window.onload = function() {
+            const now = new Date();
+            const timestamp = now.toLocaleString('pt-BR');
+            console.log('Painel carregado em:', timestamp);
+            
+            // Mostrar instruções na primeira vez
+            if (!sessionStorage.getItem('instrucoesVistas')) {
+                setTimeout(function() {
+                    const mostrar = confirm(
+                        '👋 BEM-VINDO AO PAINEL DE CONTROLE!\n\n' +
+                        'Os botões deste painel BAIXAM os arquivos .bat\n\n' +
+                        'Para EXECUTAR os scripts:\n' +
+                        '• Clique no botão para baixar\n' +
+                        '• Depois clique duas vezes no arquivo baixado\n\n' +
+                        'OU MAIS FÁCIL:\n' +
+                        '• Abra a pasta do projeto no Windows Explorer\n' +
+                        '• Clique duas vezes nos arquivos .bat diretamente\n\n' +
+                        'Clique OK para ver instruções detalhadas'
+                    );
+                    
+                    if (mostrar) {
+                        mostrarInstrucoes();
+                    }
+                    
+                    sessionStorage.setItem('instrucoesVistas', 'true');
+                }, 500);
+            }
+        };
+    </script>
+</body>
+</html>
+

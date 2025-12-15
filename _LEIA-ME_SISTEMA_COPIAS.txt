@@ -1,0 +1,335 @@
+================================================================================
+  SISTEMA DE COPIAS AUTOMATICAS - BANCOS ALTERDATA
+  Versao: 1.0 | Data: 15/12/2025
+================================================================================
+
+BEM-VINDO AO SISTEMA DE COPIAS AUTOMATICAS!
+
+Este sistema foi criado para gerenciar copias seguras dos bancos de dados
+Alterdata, permitindo consultas sem impactar os bancos de producao.
+
+================================================================================
+  COMECE AQUI - 3 PASSOS SIMPLES
+================================================================================
+
+1. ABRA O PAINEL DE CONTROLE:
+   
+   Clique duas vezes em: _PAINEL_COPIAS_BANCOS.html
+   
+   Ou execute: INICIO-RAPIDO-BANCOS.bat
+
+
+2. EXECUTE A PRIMEIRA COPIA:
+   
+   No painel, clique em "Executar Copia Manual"
+   Ou execute: COPIAR-BANCOS-ALTERDATA.bat
+
+
+3. CONFIGURE O AGENDAMENTO:
+   
+   No painel, clique em "Configurar Agendamento"
+   Ou execute: AGENDAR-COPIA-BANCOS.bat
+
+PRONTO! O sistema esta configurado e funcionando!
+
+================================================================================
+  O QUE ESTE SISTEMA FAZ
+================================================================================
+
+COPIA AUTOMATICA DE DOIS BANCOS:
+
+1. BANCOCOPIA190 (Origem: Z:\)
+   - Informacoes de ESTOQUE
+   - Quantidades disponiveis
+   - Movimentacoes
+
+2. BANCOCOPIA (Origem: C:\)
+   - Cadastro de PRODUTOS
+   - Valores e PRECOS
+   - Novos produtos e exclusoes
+
+AGENDAMENTO AUTOMATICO:
+   - Executa copias em intervalos regulares
+   - Opcoes: 1h, 2h, 4h, diario, ou manual
+   - Recomendado: a cada 4 horas
+
+LOGS DETALHADOS:
+   - Registra todas as operacoes
+   - Permite rastreamento e auditoria
+   - Facilita solucao de problemas
+
+================================================================================
+  ARQUIVOS PRINCIPAIS
+================================================================================
+
+PAINEL E DOCUMENTACAO:
+  _PAINEL_COPIAS_BANCOS.html          - Painel de controle visual
+  DOCUMENTACAO-BANCOS-ALTERDATA.md    - Documentacao completa
+  README-COPIAS-BANCOS.txt            - Guia rapido
+  _LEIA-ME_SISTEMA_COPIAS.txt         - Este arquivo
+
+SCRIPTS DE EXECUCAO:
+  COPIAR-BANCOS-ALTERDATA.bat         - Executa copia manual
+  INICIO-RAPIDO-BANCOS.bat            - Menu interativo
+
+SCRIPTS DE AGENDAMENTO:
+  AGENDAR-COPIA-BANCOS.bat            - Configura agendamento
+  VER-AGENDAMENTO-COPIAS.bat          - Verifica status
+  REMOVER-AGENDAMENTO-COPIAS.bat      - Remove agendamento
+
+SCRIPTS DE CONSULTA:
+  CONSULTAR-COPIAS.py                 - Consulta dados Python
+
+DIRETORIOS:
+  BANCOCOPIA190\                      - Copia do banco Z:\ (ESTOQUE)
+  BANCOCOPIA\                         - Copia do banco C:\ (PRODUTOS)
+  logs\                               - Logs das copias
+
+================================================================================
+  REGRA FUNDAMENTAL
+================================================================================
+
+  *** SEMPRE CONSULTE AS COPIAS, NUNCA OS BANCOS ORIGINAIS! ***
+
+  [OK]  E:\...\BANCOCOPIA190          (para consultas de ESTOQUE)
+  [OK]  E:\...\BANCOCOPIA             (para consultas de PRODUTOS/PRECOS)
+
+  [X]   C:\Program Files (x86)\Alterdata    (NAO ACESSAR!)
+  [X]   Z:\Program Files (x86)\Alterdata    (NAO ACESSAR!)
+
+Por que usar copias?
+  - Nao impacta o sistema de producao
+  - Permite consultas complexas sem riscos
+  - Possibilita testes e desenvolvimento seguro
+  - Mantem integridade dos dados originais
+
+================================================================================
+  FLUXO DE USO RECOMENDADO
+================================================================================
+
+DIA A DIA:
+
+  1. O sistema copia automaticamente (se agendado)
+  2. Voce consulta as COPIAS para extrair dados
+  3. Os logs registram todas as operacoes
+  4. Periodicamente, verifique o status
+
+CONSULTA DE DADOS:
+
+  Para ESTOQUE:
+    Fonte: BANCOCOPIA190\
+    
+  Para PRODUTOS/PRECOS:
+    Fonte: BANCOCOPIA\
+    
+  Scripts disponiveis:
+    python CONSULTAR-COPIAS.py --tipo estoque
+    python CONSULTAR-COPIAS.py --tipo produtos
+    python CONSULTAR-COPIAS.py --tipo completo
+
+MANUTENCAO:
+
+  Verificar status:
+    VER-AGENDAMENTO-COPIAS.bat
+    
+  Executar copia manual:
+    COPIAR-BANCOS-ALTERDATA.bat
+    
+  Ver logs:
+    Navegue ate: logs\
+
+================================================================================
+  COMANDOS RAPIDOS
+================================================================================
+
+EXECUCAO:
+  COPIAR-BANCOS-ALTERDATA.bat              - Copia manual
+  INICIO-RAPIDO-BANCOS.bat                 - Menu interativo
+
+AGENDAMENTO:
+  AGENDAR-COPIA-BANCOS.bat                 - Configurar
+  VER-AGENDAMENTO-COPIAS.bat               - Ver status
+  
+  schtasks /run /tn "CopiarBancosAlterdata"           - Executar agora
+  schtasks /change /tn "CopiarBancosAlterdata" /disable   - Desabilitar
+  schtasks /change /tn "CopiarBancosAlterdata" /enable    - Habilitar
+
+CONSULTA:
+  python CONSULTAR-COPIAS.py --verificar   - Verificar copias
+  python CONSULTAR-COPIAS.py --relatorio   - Gerar relatorio
+
+LOGS:
+  dir logs\                                - Listar logs
+  dir /B /O-D logs\copia_bancos_*.log     - Ordenar por data
+
+================================================================================
+  SOLUCAO DE PROBLEMAS COMUNS
+================================================================================
+
+PROBLEMA: "Diretorio de origem nao encontrado"
+SOLUCAO:
+  - Verifique se Z:\ esta mapeada (rede)
+  - Verifique se C:\ tem Alterdata instalado
+  - Execute como Administrador
+
+PROBLEMA: "Falha ao copiar banco"
+SOLUCAO:
+  - Feche o sistema Alterdata
+  - Execute como Administrador
+  - Verifique permissoes de acesso
+  - Verifique espaco em disco
+
+PROBLEMA: "Tarefa agendada nao executa"
+SOLUCAO:
+  - Execute: VER-AGENDAMENTO-COPIAS.bat
+  - Verifique se esta habilitada
+  - Reconfigure: AGENDAR-COPIA-BANCOS.bat
+  - Verifique logs de erro
+
+PROBLEMA: "Espaco em disco insuficiente"
+SOLUCAO:
+  - Limpe logs antigos em logs\
+  - Verifique espaco em E:\
+  - Use: wmic logicaldisk get caption,freespace
+
+================================================================================
+  INTEGRACAO COM OUTROS SISTEMAS
+================================================================================
+
+SCRIPTS PYTHON:
+
+  from pathlib import Path
+  
+  # CONFIGURACAO CORRETA
+  BANCO_ESTOQUE = Path("E:/PROJETOS-CURSOR/TABELAPRECOESTOQUE/BANCOCOPIA190")
+  BANCO_PRODUTOS = Path("E:/PROJETOS-CURSOR/TABELAPRECOESTOQUE/BANCOCOPIA")
+  
+  # NUNCA use os bancos originais diretamente!
+
+SCRIPTS BATCH:
+
+  REM CONFIGURACAO CORRETA
+  set BANCO_ESTOQUE=E:\PROJETOS-CURSOR\TABELAPRECOESTOQUE\BANCOCOPIA190
+  set BANCO_PRODUTOS=E:\PROJETOS-CURSOR\TABELAPRECOESTOQUE\BANCOCOPIA
+
+SCRIPTS DE ATUALIZACAO WEB:
+
+  - Certifique-se de que SEMPRE usam as copias
+  - Nunca apontem para C:\ ou Z:\ diretamente
+  - Use as variaveis de ambiente ou configuracao
+
+================================================================================
+  ESTRUTURA DE ARQUIVOS
+================================================================================
+
+E:\PROJETOS-CURSOR\TABELAPRECOESTOQUE\
+│
+├── _PAINEL_COPIAS_BANCOS.html          - Painel visual
+├── _LEIA-ME_SISTEMA_COPIAS.txt         - Este arquivo
+├── DOCUMENTACAO-BANCOS-ALTERDATA.md    - Docs completas
+├── README-COPIAS-BANCOS.txt            - README
+│
+├── COPIAR-BANCOS-ALTERDATA.bat         - Script principal
+├── AGENDAR-COPIA-BANCOS.bat            - Agendamento
+├── VER-AGENDAMENTO-COPIAS.bat          - Status
+├── REMOVER-AGENDAMENTO-COPIAS.bat      - Remover
+├── INICIO-RAPIDO-BANCOS.bat            - Menu interativo
+├── CONSULTAR-COPIAS.py                 - Consulta Python
+│
+├── BANCOCOPIA190\                      - Copia Z:\ (ESTOQUE)
+├── BANCOCOPIA\                         - Copia C:\ (PRODUTOS)
+└── logs\                               - Logs das copias
+
+================================================================================
+  MANUTENCAO E BOAS PRATICAS
+================================================================================
+
+DIARIAMENTE:
+  [x] Verifique execucao automatica (via logs ou agendamento)
+
+SEMANALMENTE:
+  [x] Revise logs de erro (se houver)
+  [x] Verifique espaco em disco
+  [x] Valide integridade das copias
+
+MENSALMENTE:
+  [x] Limpe logs antigos (mantenha ultimos 30 dias)
+  [x] Revise performance das copias
+  [x] Atualize documentacao (se necessario)
+
+CHECKLIST DE SEGURANCA:
+  [x] Nunca modifique bancos originais sem backup
+  [x] Sempre use copias para consultas
+  [x] Mantenha logs para auditoria
+  [x] Monitore espaco em disco regularmente
+  [x] Execute copias em horarios de baixo uso
+
+================================================================================
+  RECURSOS ADICIONAIS
+================================================================================
+
+REPOSITORIO:
+  https://github.com/ronaldomelofz/tabela
+
+DOCUMENTACAO COMPLETA:
+  DOCUMENTACAO-BANCOS-ALTERDATA.md
+
+PAINEL DE CONTROLE:
+  _PAINEL_COPIAS_BANCOS.html
+
+SUPORTE:
+  1. Consulte a documentacao
+  2. Verifique os logs
+  3. Execute VER-AGENDAMENTO-COPIAS.bat
+  4. Consulte o repositorio no GitHub
+
+================================================================================
+  PERGUNTAS FREQUENTES
+================================================================================
+
+Q: Com que frequencia devo copiar os bancos?
+A: Recomendamos a cada 4 horas para producao, ou 2 horas para desenvolvimento.
+
+Q: As copias ocupam muito espaco?
+A: Sim, cada copia pode ocupar varios GB. Monitore o espaco em disco.
+
+Q: Posso executar copia manualmente?
+A: Sim! Execute COPIAR-BANCOS-ALTERDATA.bat a qualquer momento.
+
+Q: E se a tarefa agendada falhar?
+A: Verifique os logs em logs\ para diagnosticar o problema.
+
+Q: Posso desabilitar o agendamento temporariamente?
+A: Sim! Use: schtasks /change /tn "CopiarBancosAlterdata" /disable
+
+Q: Como sei se a ultima copia foi bem-sucedida?
+A: Execute VER-AGENDAMENTO-COPIAS.bat para ver status e logs.
+
+Q: Posso copiar apenas um dos bancos?
+A: Sim, edite COPIAR-BANCOS-ALTERDATA.bat e comente a etapa que nao deseja.
+
+Q: O que fazer se Z:\ nao estiver disponivel?
+A: O script continuara e copiara apenas C:\. Verifique o log para detalhes.
+
+================================================================================
+  AGRADECIMENTOS
+================================================================================
+
+Este sistema foi desenvolvido para facilitar o gerenciamento seguro dos
+bancos de dados Alterdata, garantindo que consultas e extrações de dados
+não impactem o ambiente de produção.
+
+Desenvolvido como parte do projeto Tabela Preço Estoque.
+Repositório: https://github.com/ronaldomelofz/tabela
+
+================================================================================
+  FIM DO GUIA
+================================================================================
+
+Para comecar, abra: _PAINEL_COPIAS_BANCOS.html
+Ou execute: INICIO-RAPIDO-BANCOS.bat
+
+Boa sorte! 🚀
+
+================================================================================
+

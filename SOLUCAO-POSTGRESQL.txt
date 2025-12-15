@@ -1,0 +1,122 @@
+================================================================================
+  SOLUCAO: POSTGRESQL NAO ENCONTRADO
+================================================================================
+
+PROBLEMA:
+  O script mostra: "PostgreSQL nao encontrado nas portas 5432, 5433 ou 5434"
+
+CAUSA:
+  O servico PostgreSQL do Alterdata nao esta rodando.
+
+================================================================================
+  SOLUCAO SIMPLES (RECOMENDADA)
+================================================================================
+
+1. ABRIR O PROGRAMA ALTERDATA OU iSHOP
+
+   → Va em Iniciar
+   → Procure por "Alterdata" ou "iShop"
+   → Abra o programa
+   → O PostgreSQL iniciara automaticamente
+   → Aguarde 1 minuto
+   → Execute novamente: EXECUTAR-INTEGRACAO-RAPIDA.bat
+
+================================================================================
+  SOLUCAO ALTERNATIVA 1 - SCRIPT AUTOMATICO
+================================================================================
+
+1. Clique duas vezes: VERIFICAR-POSTGRESQL.bat
+   → Verifica se PostgreSQL esta rodando
+   → Mostra em qual porta esta
+
+2. Se nao estiver rodando, clique: INICIAR-POSTGRESQL-ALTERDATA.bat
+   → Tenta iniciar o PostgreSQL automaticamente
+
+3. Execute novamente: EXECUTAR-INTEGRACAO-RAPIDA.bat
+
+================================================================================
+  SOLUCAO ALTERNATIVA 2 - SERVICOS DO WINDOWS
+================================================================================
+
+1. Pressione: Windows + R
+
+2. Digite: services.msc
+
+3. Pressione: Enter
+
+4. Procure por servicos com nome "PostgreSQL"
+
+5. Clique com botao direito → Iniciar
+
+6. Execute novamente: EXECUTAR-INTEGRACAO-RAPIDA.bat
+
+================================================================================
+  VERIFICAR SE FUNCIONOU
+================================================================================
+
+Apos iniciar o PostgreSQL:
+
+1. Execute: VERIFICAR-POSTGRESQL.bat
+
+2. Deve mostrar:
+   [OK] Porta 5432 - ATIVA  (ou 5433 ou 5434)
+
+3. Execute: EXECUTAR-INTEGRACAO-RAPIDA.bat
+
+4. Deve funcionar e criar: data\produtos.json
+
+================================================================================
+  SE AINDA NAO FUNCIONAR
+================================================================================
+
+POSSIVEL CAUSA 1: Alterdata nao instalado
+  → Instale o Alterdata/iShop
+  → Reinicie o computador
+  → Tente novamente
+
+POSSIVEL CAUSA 2: PostgreSQL em porta diferente
+  → Execute: VERIFICAR-POSTGRESQL.bat
+  → Veja em qual porta esta
+  → Avise para ajustarmos o script
+
+POSSIVEL CAUSA 3: Permissoes
+  → Execute os scripts como Administrador
+  → Clique com botao direito → Executar como administrador
+
+================================================================================
+  ALTERNATIVA: USAR SISTEMA DE COPIA COMPLETA
+================================================================================
+
+Se nao conseguir fazer o PostgreSQL funcionar, use o sistema antigo:
+
+1. Execute: COPIAR-BANCOS-ALTERDATA.bat
+   → Copia os bancos completos (mais lento)
+   → Nao precisa do PostgreSQL rodando
+
+2. Execute: EXTRAIR-DA-COPIA-FINAL.bat
+   → Extrai dados da copia
+
+Este metodo e mais lento mas funciona sempre!
+
+================================================================================
+  ARQUIVOS PARA DIAGNOSTICO
+================================================================================
+
+VERIFICAR-POSTGRESQL.bat           Verifica se esta rodando
+INICIAR-POSTGRESQL-ALTERDATA.bat   Tenta iniciar automaticamente
+SOLUCAO-POSTGRESQL.txt             Este arquivo
+
+================================================================================
+  RESUMO RAPIDO
+================================================================================
+
+JEITO MAIS FACIL:
+
+1. Abrir programa Alterdata/iShop
+2. Aguardar 1 minuto  
+3. Executar: _COMECE_AQUI.bat
+4. Escolher opcao 1
+5. Pronto!
+
+================================================================================
+

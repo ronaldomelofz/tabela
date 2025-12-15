@@ -1,0 +1,122 @@
+================================================================================
+  CORRECAO: RESPEITANDO A REGRA DE OURO
+================================================================================
+
+ERRO IDENTIFICADO:
+  O sistema de "integracao rapida" criado estava tentando conectar
+  DIRETAMENTE no PostgreSQL do Alterdata (banco de producao).
+
+ISSO VIOLA A REGRA DE OURO:
+  ❌ NUNCA consulte os bancos originais diretamente!
+  ✅ SEMPRE use COPIAS!
+
+================================================================================
+  REGRA DE OURO (FUNDAMENTAL)
+================================================================================
+
+✅ SEMPRE CONSULTE AS COPIAS:
+  - BANCOCOPIA190 (para informacoes de ESTOQUE)
+  - BANCOCOPIA (para informacoes de PRODUTOS/PRECOS)
+
+❌ NUNCA ACESSE DIRETAMENTE:
+  - C:\Program Files (x86)\Alterdata
+  - Z:\Program Files (x86)\Alterdata
+
+POR QUE?
+  - Protege o sistema de producao
+  - Evita impacto no desempenho do Alterdata
+  - Permite consultas complexas sem risco
+  - Mantem integridade dos dados originais
+
+================================================================================
+  SOLUCAO CORRETA
+================================================================================
+
+FLUXO CORRETO:
+
+  1. COPIAR dados necessarios para area segura
+     ↓
+  2. CONSULTAR apenas as COPIAS
+     ↓
+  3. NUNCA acessar bancos originais
+
+ARQUIVOS CORRETOS A USAR:
+
+  ✅ COPIAR-BANCOS-ALTERDATA.bat
+     → Copia os bancos completos para BANCOCOPIA e BANCOCOPIA190
+     → Mais lento (5-10 min) mas SEGURO
+
+  ✅ EXTRAIR-DA-COPIA-FINAL.bat
+     → Extrai dados DAS COPIAS
+     → Nao acessa originais
+
+================================================================================
+  O QUE FAZER AGORA
+================================================================================
+
+OPCAO 1 - USAR SISTEMA DE COPIA COMPLETA (Recomendado):
+
+  1. Execute: COPIAR-BANCOS-ALTERDATA.bat
+     → Copia TODO o banco para area segura
+     → Demora 5-10 minutos
+     → SEGURO e CORRETO
+
+  2. Execute: AGENDAR-COPIA-BANCOS.bat
+     → Configura copia automatica (a cada 4 horas)
+     → Sistema mantem copias atualizadas
+
+  3. Para extrair dados:
+     → Use scripts que leiam de BANCOCOPIA/BANCOCOPIA190
+     → NUNCA dos bancos originais
+
+OPCAO 2 - COPIAR APENAS TABELAS NECESSARIAS:
+
+  1. Execute: COPIAR-TABELAS-NECESSARIAS.bat
+     → Copia apenas tabelas produto e detalhe
+     → Mais rapido que copia completa
+     → Ainda respeita a regra de ouro
+
+  2. Consulte as copias criadas
+     → BANCOCOPIA_PRODUTOS
+     → BANCOCOPIA_DETALHES
+
+================================================================================
+  SCRIPTS QUE RESPEITAM A REGRA DE OURO
+================================================================================
+
+✅ CORRETOS (Usam copias):
+  - COPIAR-BANCOS-ALTERDATA.bat
+  - EXTRAIR-DA-COPIA-FINAL.bat
+  - scripts que leiam de BANCOCOPIA*
+
+❌ INCORRETOS (Acessam originais):
+  - EXECUTAR-INTEGRACAO-RAPIDA.bat (ATUAL)
+  - scripts/integracao-rapida-alterdata.py (ATUAL)
+  - Qualquer script que conecte em porta 5432/5433
+
+================================================================================
+  RESUMO
+================================================================================
+
+REGRA DE OURO:
+  SEMPRE use COPIAS, NUNCA os originais!
+
+METODO CORRETO:
+  1. Copiar → 2. Consultar copias → 3. Nunca acessar originais
+
+ARQUIVOS A USAR:
+  ✅ COPIAR-BANCOS-ALTERDATA.bat
+  ✅ EXTRAIR-DA-COPIA-FINAL.bat
+
+ARQUIVOS A EVITAR (ate correcao):
+  ❌ EXECUTAR-INTEGRACAO-RAPIDA.bat (acessa original)
+  ❌ scripts/integracao-rapida-alterdata.py (acessa original)
+
+================================================================================
+
+COMECE AGORA COM O METODO CORRETO:
+
+  Clique duas vezes: COPIAR-BANCOS-ALTERDATA.bat
+
+================================================================================
+
