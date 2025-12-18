@@ -171,7 +171,7 @@
     "codigo": "000131",
     "descricao": "PISTAO 60N INVERSO",
     "valor": 14.45,
-    "estoque": 28
+    "estoque": 26
   },
   {
     "codigo": "000132",
@@ -273,7 +273,7 @@
     "codigo": "000185",
     "descricao": "FECHADURA CILINDRO DE PRESSÃO",
     "valor": 16.11,
-    "estoque": 570
+    "estoque": 569
   },
   {
     "codigo": "000187",
@@ -321,7 +321,7 @@
     "codigo": "000249",
     "descricao": "CANTONEIRA 13X13 PINTADA CROMADA",
     "valor": 0.22,
-    "estoque": 20714
+    "estoque": 20544
   },
   {
     "codigo": "000261",
@@ -681,7 +681,7 @@
     "codigo": "000441",
     "descricao": "BUCHA S-8 (TATU)",
     "valor": 0.17,
-    "estoque": 18580
+    "estoque": 18480
   },
   {
     "codigo": "000443",
@@ -801,7 +801,7 @@
     "codigo": "000475",
     "descricao": "ESQUADRETA 1045 CONJUNTO C/ 4 PCS",
     "valor": 11.0,
-    "estoque": 2749
+    "estoque": 2741
   },
   {
     "codigo": "000477",
@@ -843,7 +843,7 @@
     "codigo": "000483",
     "descricao": "CORREDICA 250MM TELESCOPICA LIGHT",
     "valor": 7.73,
-    "estoque": 386
+    "estoque": 385
   },
   {
     "codigo": "000484",
@@ -909,7 +909,7 @@
     "codigo": "000499",
     "descricao": "MDF 03MM BRANCO 1 FACE",
     "valor": 138.33,
-    "estoque": 13
+    "estoque": 11
   },
   {
     "codigo": "000503",
@@ -993,7 +993,7 @@
     "codigo": "000536",
     "descricao": "PORTA PANO 3 ARTES BRANCO",
     "valor": 62.22,
-    "estoque": 14
+    "estoque": 13
   },
   {
     "codigo": "000537",
@@ -1815,7 +1815,7 @@
     "codigo": "000812",
     "descricao": "PERFIL PUXADOR 047 CHAMPANHE",
     "valor": 172.22,
-    "estoque": 73
+    "estoque": 70
   },
   {
     "codigo": "000815",
@@ -2211,7 +2211,7 @@
     "codigo": "001021",
     "descricao": "SUPORTE CABIDE REDONDO",
     "valor": 1.67,
-    "estoque": 263
+    "estoque": 261
   },
   {
     "codigo": "001022",
@@ -2535,7 +2535,7 @@
     "codigo": "001144",
     "descricao": "PINO PRATELEIRA REDONDO BRANCO",
     "valor": 0.17,
-    "estoque": 22787
+    "estoque": 22687
   },
   {
     "codigo": "001145",
@@ -3267,7 +3267,7 @@
     "codigo": "001487",
     "descricao": "PUXADOR PONTO INOX 23MM",
     "valor": 3.89,
-    "estoque": 1164
+    "estoque": 1148
   },
   {
     "codigo": "001488",
@@ -4251,7 +4251,7 @@
     "codigo": "001747",
     "descricao": "COLA CONTATO UNA 0.750 KG",
     "valor": 34.44,
-    "estoque": 113
+    "estoque": 112
   },
   {
     "codigo": "001748",
@@ -4401,7 +4401,7 @@
     "codigo": "001782",
     "descricao": "PERFIL PARA PORTA 1004 6MT FOSCO",
     "valor": 205.56,
-    "estoque": 43
+    "estoque": 42
   },
   {
     "codigo": "001783",
@@ -5709,13 +5709,13 @@
     "codigo": "002016",
     "descricao": "PERFIL PARA PORTA 1036 6MT CHAMPANHE",
     "valor": 166.44,
-    "estoque": 37
+    "estoque": 36
   },
   {
     "codigo": "002017",
     "descricao": "PERFIL PARA PORTA 1036 6MT FOSCO",
     "valor": 161.11,
-    "estoque": 50
+    "estoque": 44
   },
   {
     "codigo": "002018",
@@ -6309,7 +6309,7 @@
     "codigo": "002128",
     "descricao": "FITA BORDA CONCRETE 35MM",
     "valor": 61.11,
-    "estoque": 1
+    "estoque": 2
   },
   {
     "codigo": "002129",
@@ -6393,7 +6393,7 @@
     "codigo": "002143",
     "descricao": "CHAPA MDF FP 06MM PRETO 1 FACE BRANCO",
     "valor": 261.11,
-    "estoque": 25
+    "estoque": 24
   },
   {
     "codigo": "002144",
@@ -7707,7 +7707,7 @@
     "codigo": "002369",
     "descricao": "UND PARAFUSO PHS 3.5X16 MM",
     "valor": 0.05,
-    "estoque": 62478
+    "estoque": 60478
   },
   {
     "codigo": "002370",
@@ -7725,7 +7725,7 @@
     "codigo": "002372",
     "descricao": "UND PARAFUSO PHS 4.0X16 MM",
     "valor": 0.05,
-    "estoque": 82975
+    "estoque": 82905
   },
   {
     "codigo": "002373",
@@ -7749,7 +7749,7 @@
     "codigo": "002376",
     "descricao": "UND PARAFUSO PHS 4.0X25 MM FLANGEADO",
     "valor": 0.09,
-    "estoque": 26310
+    "estoque": 26294
   },
   {
     "codigo": "002377",
@@ -7767,13 +7767,13 @@
     "codigo": "002379",
     "descricao": "UND PARAFUSO PHS 4.0X40 MM",
     "valor": 0.1,
-    "estoque": 148528
+    "estoque": 148498
   },
   {
     "codigo": "002380",
     "descricao": "UND PARAFUSO PHS 4.0X45 MM",
     "valor": 0.11,
-    "estoque": 85338
+    "estoque": 85268
   },
   {
     "codigo": "002381",
@@ -8859,7 +8859,7 @@
     "codigo": "002600",
     "descricao": "FITA BORDA CONCRETE 22MM",
     "valor": 37.78,
-    "estoque": 2
+    "estoque": 3
   },
   {
     "codigo": "002601",
@@ -9009,7 +9009,7 @@
     "codigo": "002626",
     "descricao": "PLACA MDF FP 15MM BRANCO TX 2 FACES",
     "valor": 261.0,
-    "estoque": 291
+    "estoque": 285
   },
   {
     "codigo": "002627",
@@ -9075,7 +9075,7 @@
     "codigo": "002637",
     "descricao": "PLACA MDF 06MM BRANCO TX 2 FACES",
     "valor": 211.0,
-    "estoque": 48
+    "estoque": 46
   },
   {
     "codigo": "002638",
