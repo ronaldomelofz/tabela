@@ -3,13 +3,13 @@
     "codigo": "000007",
     "descricao": "SUPORTE L METAL P/FIXACAO RIGIDO",
     "valor": 1.22,
-    "estoque": 469
+    "estoque": 427
   },
   {
     "codigo": "000008",
     "descricao": "CAPA P/SUPORTE L FIXA BRANCO",
     "valor": 0.39,
-    "estoque": 2398
+    "estoque": 2356
   },
   {
     "codigo": "000009",
@@ -39,7 +39,7 @@
     "codigo": "000025",
     "descricao": "DOBRADICA 35MM CURVA",
     "valor": 2.78,
-    "estoque": 2605
+    "estoque": 2587
   },
   {
     "codigo": "000026",
@@ -63,7 +63,7 @@
     "codigo": "000036",
     "descricao": "PISTAO 100N",
     "valor": 12.22,
-    "estoque": 680
+    "estoque": 678
   },
   {
     "codigo": "000037",
@@ -123,7 +123,7 @@
     "codigo": "000111",
     "descricao": "SISTEMA D-52",
     "valor": 41.67,
-    "estoque": 71
+    "estoque": 68
   },
   {
     "codigo": "000114",
@@ -153,7 +153,7 @@
     "codigo": "000118",
     "descricao": "PASSA FIO 60 BRANCO",
     "valor": 2.22,
-    "estoque": 1031
+    "estoque": 1021
   },
   {
     "codigo": "000119",
@@ -201,7 +201,7 @@
     "codigo": "000139",
     "descricao": "BROCA ACO RAPIDO 7/64",
     "valor": 3.89,
-    "estoque": 1022
+    "estoque": 1021
   },
   {
     "codigo": "000142",
@@ -321,7 +321,7 @@
     "codigo": "000249",
     "descricao": "CANTONEIRA 13X13 PINTADA CROMADA",
     "valor": 0.22,
-    "estoque": 20544
+    "estoque": 20494
   },
   {
     "codigo": "000261",
@@ -350,7 +350,7 @@
   {
     "codigo": "000289",
     "descricao": "TAPA FURO CIPRES",
-    "valor": 4.44,
+    "valor": 6.67,
     "estoque": 244
   },
   {
@@ -429,7 +429,7 @@
     "codigo": "000309",
     "descricao": "BROCA SDS N 7",
     "valor": 11.11,
-    "estoque": 81
+    "estoque": 80
   },
   {
     "codigo": "000311",
@@ -603,7 +603,7 @@
     "codigo": "000408",
     "descricao": "SERRA TICO-TICO - LAMINA",
     "valor": 16.11,
-    "estoque": 247
+    "estoque": 246
   },
   {
     "codigo": "000415",
@@ -801,7 +801,7 @@
     "codigo": "000475",
     "descricao": "ESQUADRETA 1045 CONJUNTO C/ 4 PCS",
     "valor": 11.0,
-    "estoque": 2741
+    "estoque": 2733
   },
   {
     "codigo": "000477",
@@ -825,7 +825,7 @@
     "codigo": "000480",
     "descricao": "CORREDICA 400MM TELESCOPICA LARGA",
     "valor": 15.84,
-    "estoque": 485
+    "estoque": 461
   },
   {
     "codigo": "000481",
@@ -849,13 +849,13 @@
     "codigo": "000484",
     "descricao": "CORREDICA 300MM TELESCOPICA LIGHT",
     "valor": 9.24,
-    "estoque": 1260
+    "estoque": 1258
   },
   {
     "codigo": "000485",
     "descricao": "CORREDICA 350MM TELESCOPICA LIGHT",
     "valor": 11.66,
-    "estoque": 32
+    "estoque": 31
   },
   {
     "codigo": "000486",
@@ -909,7 +909,7 @@
     "codigo": "000499",
     "descricao": "MDF 03MM BRANCO 1 FACE",
     "valor": 138.33,
-    "estoque": 11
+    "estoque": 10
   },
   {
     "codigo": "000503",
@@ -975,7 +975,7 @@
     "codigo": "000533",
     "descricao": "PONTEIRA 2 POLEGADAS N 2",
     "valor": 2.78,
-    "estoque": 979
+    "estoque": 978
   },
   {
     "codigo": "000534",
@@ -999,7 +999,7 @@
     "codigo": "000537",
     "descricao": "PORTA PANO 3 ARTES CROMADO",
     "valor": 74.44,
-    "estoque": 23
+    "estoque": 22
   },
   {
     "codigo": "000538",
@@ -1137,7 +1137,7 @@
     "codigo": "000579",
     "descricao": "CORRETIVO",
     "valor": 3.89,
-    "estoque": 67
+    "estoque": 66
   },
   {
     "codigo": "000581",
@@ -1185,7 +1185,7 @@
     "codigo": "000601",
     "descricao": "FITA BORDA 19MM BRANCO C/ 20 MT",
     "valor": 13.33,
-    "estoque": 177
+    "estoque": 175
   },
   {
     "codigo": "000602",
@@ -1401,7 +1401,7 @@
     "codigo": "000681",
     "descricao": "PVC BRANCO TX",
     "valor": 61.11,
-    "estoque": 283
+    "estoque": 281
   },
   {
     "codigo": "000682",
@@ -1490,7 +1490,7 @@
   {
     "codigo": "000707",
     "descricao": "TAPA FURO ESPRESSO",
-    "valor": 4.44,
+    "valor": 6.67,
     "estoque": 55
   },
   {
@@ -1676,61 +1676,61 @@
   {
     "codigo": "000756",
     "descricao": "TAPA FURO CARVALHO INDIANO",
-    "valor": 4.44,
+    "valor": 6.67,
     "estoque": 23
   },
   {
     "codigo": "000759",
     "descricao": "TAPA FURO MALBEC CASSIS",
-    "valor": 4.44,
+    "valor": 6.67,
     "estoque": 159
   },
   {
     "codigo": "000761",
     "descricao": "TAPA FURO AGATA",
-    "valor": 4.44,
+    "valor": 6.67,
     "estoque": 0
   },
   {
     "codigo": "000762",
     "descricao": "TAPA FURO AMANTEA",
-    "valor": 4.44,
+    "valor": 6.67,
     "estoque": 372
   },
   {
     "codigo": "000763",
     "descricao": "TAPA FURO BRANCO",
-    "valor": 3.33,
-    "estoque": 710
+    "valor": 5.0,
+    "estoque": 1707
   },
   {
     "codigo": "000764",
     "descricao": "TAPA FURO HUNTER",
-    "valor": 4.44,
+    "valor": 6.67,
     "estoque": 0
   },
   {
     "codigo": "000765",
     "descricao": "TAPA FURO LINHO",
-    "valor": 4.44,
+    "valor": 6.67,
     "estoque": 114
   },
   {
     "codigo": "000768",
     "descricao": "TAPA FURO TOLEDO",
-    "valor": 4.44,
+    "valor": 6.67,
     "estoque": 26
   },
   {
     "codigo": "000769",
     "descricao": "TAPA FURO VIRGINIA",
-    "valor": 4.44,
+    "valor": 6.67,
     "estoque": 71
   },
   {
     "codigo": "000770",
     "descricao": "TAPA FURO ZURICH",
-    "valor": 4.44,
+    "valor": 6.67,
     "estoque": 261
   },
   {
@@ -1922,8 +1922,8 @@
   {
     "codigo": "000877",
     "descricao": "TAPA FURO BRANCO 19MM",
-    "valor": 3.33,
-    "estoque": 1468
+    "valor": 5.0,
+    "estoque": 1466
   },
   {
     "codigo": "000888",
@@ -1977,7 +1977,7 @@
     "codigo": "000911",
     "descricao": "DOBRADICA PISTAO SUPER CURVA 35MM",
     "valor": 4.44,
-    "estoque": 342
+    "estoque": 334
   },
   {
     "codigo": "000912",
@@ -2180,14 +2180,14 @@
   {
     "codigo": "001014",
     "descricao": "TAPA FURO CAFELATE",
-    "valor": 4.44,
+    "valor": 6.67,
     "estoque": 21
   },
   {
     "codigo": "001016",
     "descricao": "TAPA FURO CINZA CRISTAL",
-    "valor": 4.44,
-    "estoque": 65
+    "valor": 6.67,
+    "estoque": 105
   },
   {
     "codigo": "001018",
@@ -2211,7 +2211,7 @@
     "codigo": "001021",
     "descricao": "SUPORTE CABIDE REDONDO",
     "valor": 1.67,
-    "estoque": 261
+    "estoque": 253
   },
   {
     "codigo": "001022",
@@ -2390,26 +2390,26 @@
   {
     "codigo": "001117",
     "descricao": "TAPA FURO CASTAINE",
-    "valor": 4.44,
+    "valor": 6.67,
     "estoque": 285
   },
   {
     "codigo": "001118",
     "descricao": "TAPA FURO METALIC SUEDE",
-    "valor": 4.44,
+    "valor": 6.67,
     "estoque": 264
   },
   {
     "codigo": "001119",
     "descricao": "TAPA FURO NOGAL MALAGA",
-    "valor": 4.44,
+    "valor": 6.67,
     "estoque": 229
   },
   {
     "codigo": "001120",
     "descricao": "TAPA FURO PRETO",
-    "valor": 4.44,
-    "estoque": 123
+    "valor": 6.67,
+    "estoque": 223
   },
   {
     "codigo": "001121",
@@ -2529,7 +2529,7 @@
     "codigo": "001143",
     "descricao": "CANTONEIRA 13X13 MACICA CROMADA",
     "valor": 0.39,
-    "estoque": 8932
+    "estoque": 8782
   },
   {
     "codigo": "001144",
@@ -2744,79 +2744,79 @@
   {
     "codigo": "001233",
     "descricao": "TAPA FURO ARGENTO",
-    "valor": 4.44,
+    "valor": 6.67,
     "estoque": 267
   },
   {
     "codigo": "001234",
     "descricao": "TAPA FURO AZUL",
-    "valor": 4.44,
+    "valor": 6.67,
     "estoque": 33
   },
   {
     "codigo": "001235",
     "descricao": "TAPA FURO BAUMKUCHEM",
-    "valor": 4.44,
+    "valor": 6.67,
     "estoque": 546
   },
   {
     "codigo": "001236",
     "descricao": "TAPA FURO CHIARO",
-    "valor": 4.44,
+    "valor": 6.67,
     "estoque": 272
   },
   {
     "codigo": "001237",
     "descricao": "TAPA FURO DAKOTA",
-    "valor": 4.44,
+    "valor": 6.67,
     "estoque": 566
   },
   {
     "codigo": "001238",
     "descricao": "TAPA FURO DAMASCO",
-    "valor": 4.44,
+    "valor": 6.67,
     "estoque": 689
   },
   {
     "codigo": "001239",
     "descricao": "TAPA FURO LINEN GRIGIO",
-    "valor": 4.44,
+    "valor": 6.67,
     "estoque": 555
   },
   {
     "codigo": "001240",
     "descricao": "TAPA FURO NERO",
-    "valor": 4.44,
+    "valor": 6.67,
     "estoque": 328
   },
   {
     "codigo": "001241",
     "descricao": "TAPA FURO NOGAL TURIM",
-    "valor": 4.44,
+    "valor": 6.67,
     "estoque": 396
   },
   {
     "codigo": "001243",
     "descricao": "TAPA FURO PROVENCE",
-    "valor": 4.44,
+    "valor": 6.67,
     "estoque": 172
   },
   {
     "codigo": "001244",
     "descricao": "TAPA FURO RUGGINE",
-    "valor": 4.44,
+    "valor": 6.67,
     "estoque": 449
   },
   {
     "codigo": "001245",
     "descricao": "TAPA FURO SALINA",
-    "valor": 4.44,
+    "valor": 6.67,
     "estoque": 576
   },
   {
     "codigo": "001246",
     "descricao": "TAPA FURO WOOD",
-    "valor": 4.44,
+    "valor": 6.67,
     "estoque": 269
   },
   {
@@ -2853,7 +2853,7 @@
     "codigo": "001255",
     "descricao": "FITA BORDA 65MM BRANCO C/ 20 MT",
     "valor": 55.56,
-    "estoque": 310
+    "estoque": 309
   },
   {
     "codigo": "001262",
@@ -3002,7 +3002,7 @@
   {
     "codigo": "001316",
     "descricao": "TAPA FURO CINZA COBALTO",
-    "valor": 4.44,
+    "valor": 6.67,
     "estoque": 103
   },
   {
@@ -3020,7 +3020,7 @@
   {
     "codigo": "001321",
     "descricao": "TAPA FURO PALISSANDRO ARTICO",
-    "valor": 4.44,
+    "valor": 6.67,
     "estoque": 451
   },
   {
@@ -3057,7 +3057,7 @@
     "codigo": "001332",
     "descricao": "CANTONEIRA 13X13 MACICA BRANCO",
     "valor": 0.39,
-    "estoque": 7039
+    "estoque": 6939
   },
   {
     "codigo": "001335",
@@ -3110,7 +3110,7 @@
   {
     "codigo": "001346",
     "descricao": "TAPA FURO CHUMBO",
-    "valor": 4.44,
+    "valor": 6.67,
     "estoque": 90
   },
   {
@@ -3237,7 +3237,7 @@
     "codigo": "001470",
     "descricao": "BUCHA S-8 (TATU) C/ANEL",
     "valor": 0.17,
-    "estoque": 395
+    "estoque": 295
   },
   {
     "codigo": "001472",
@@ -3398,7 +3398,7 @@
   {
     "codigo": "001539",
     "descricao": "TAPA FURO GALIANO",
-    "valor": 4.44,
+    "valor": 6.67,
     "estoque": 398
   },
   {
@@ -3441,7 +3441,7 @@
     "codigo": "001561",
     "descricao": "FECHADURA CILINDRO 22MM",
     "valor": 8.89,
-    "estoque": 421
+    "estoque": 420
   },
   {
     "codigo": "001562",
@@ -3591,7 +3591,7 @@
     "codigo": "001595",
     "descricao": "SISTEMA RO-7502V (DN80)",
     "valor": 54.9,
-    "estoque": 32
+    "estoque": 33
   },
   {
     "codigo": "001596",
@@ -3603,7 +3603,7 @@
     "codigo": "001597",
     "descricao": "COLA INSTANTANEA 7BOND 100G",
     "valor": 17.78,
-    "estoque": 145
+    "estoque": 142
   },
   {
     "codigo": "001598",
@@ -4065,7 +4065,7 @@
     "codigo": "001706",
     "descricao": "SUPORTE FENDA 6MM CROMADO",
     "valor": 2.11,
-    "estoque": 1046
+    "estoque": 1037
   },
   {
     "codigo": "001707",
@@ -4131,7 +4131,7 @@
     "codigo": "001718",
     "descricao": "RODIZIO 158 PRETO SEM FREIO (6045)",
     "valor": 15.29,
-    "estoque": 107
+    "estoque": 103
   },
   {
     "codigo": "001719",
@@ -4179,7 +4179,7 @@
     "codigo": "001727",
     "descricao": "ESTOPA PARA POLIMENTO 150GR",
     "valor": 4.22,
-    "estoque": 25
+    "estoque": 19
   },
   {
     "codigo": "001728",
@@ -4221,7 +4221,7 @@
     "codigo": "001738",
     "descricao": "BUCHA PARA GESSO GDP3",
     "valor": 0.39,
-    "estoque": 5125
+    "estoque": 5110
   },
   {
     "codigo": "001739",
@@ -4251,7 +4251,7 @@
     "codigo": "001747",
     "descricao": "COLA CONTATO UNA 0.750 KG",
     "valor": 34.44,
-    "estoque": 112
+    "estoque": 108
   },
   {
     "codigo": "001748",
@@ -4359,7 +4359,7 @@
     "codigo": "001772",
     "descricao": "PUXADOR PONTO DOURADO ESCOVADO 31,5MM",
     "valor": 9.87,
-    "estoque": 112
+    "estoque": 111
   },
   {
     "codigo": "001774",
@@ -4401,7 +4401,7 @@
     "codigo": "001782",
     "descricao": "PERFIL PARA PORTA 1004 6MT FOSCO",
     "valor": 205.56,
-    "estoque": 42
+    "estoque": 39
   },
   {
     "codigo": "001783",
@@ -4623,7 +4623,7 @@
     "codigo": "001822",
     "descricao": "SISTEMA AB-252",
     "valor": 25.56,
-    "estoque": 308
+    "estoque": 306
   },
   {
     "codigo": "001824",
@@ -4743,7 +4743,7 @@
     "codigo": "001843",
     "descricao": "PUXADOR BAUMINO 128MM GRAFITE",
     "valor": 7.33,
-    "estoque": 38
+    "estoque": 35
   },
   {
     "codigo": "001844",
@@ -5655,7 +5655,7 @@
     "codigo": "002007",
     "descricao": "COLA BRANCA TECBOND 1 KG",
     "valor": 31.11,
-    "estoque": 7
+    "estoque": 6
   },
   {
     "codigo": "002008",
@@ -5709,13 +5709,13 @@
     "codigo": "002016",
     "descricao": "PERFIL PARA PORTA 1036 6MT CHAMPANHE",
     "valor": 166.44,
-    "estoque": 36
+    "estoque": 34
   },
   {
     "codigo": "002017",
     "descricao": "PERFIL PARA PORTA 1036 6MT FOSCO",
     "valor": 161.11,
-    "estoque": 44
+    "estoque": 43
   },
   {
     "codigo": "002018",
@@ -6135,7 +6135,7 @@
     "codigo": "002099",
     "descricao": "PUXADOR BOLA 20MM PRETO BRILHO",
     "valor": 2.89,
-    "estoque": 207
+    "estoque": 187
   },
   {
     "codigo": "002100",
@@ -6273,7 +6273,7 @@
     "codigo": "002122",
     "descricao": "COLA BRANCA AFIX 500 G",
     "valor": 16.67,
-    "estoque": 36
+    "estoque": 35
   },
   {
     "codigo": "002123",
@@ -6746,13 +6746,13 @@
   {
     "codigo": "002208",
     "descricao": "TAPA FURO VIENA",
-    "valor": 4.44,
+    "valor": 6.67,
     "estoque": 58
   },
   {
     "codigo": "002209",
     "descricao": "TAPA FURO FENDI",
-    "valor": 4.44,
+    "valor": 6.67,
     "estoque": 28
   },
   {
@@ -7197,30 +7197,30 @@
     "codigo": "002283",
     "descricao": "BUCHA AMERICANA ZAMAC 5/16X20 C/ABA",
     "valor": 2.22,
-    "estoque": 125
+    "estoque": 124
   },
   {
     "codigo": "002284",
     "descricao": "TAPA FURO ADEGA",
-    "valor": 4.44,
+    "valor": 6.67,
     "estoque": 0
   },
   {
     "codigo": "002285",
     "descricao": "TAPA FURO AMAGO",
-    "valor": 4.44,
+    "valor": 6.67,
     "estoque": 19
   },
   {
     "codigo": "002286",
     "descricao": "TAPA FURO CONCRETE",
-    "valor": 4.44,
+    "valor": 6.67,
     "estoque": 26
   },
   {
     "codigo": "002287",
     "descricao": "TAPA FURO FREIJO NATURAL",
-    "valor": 4.44,
+    "valor": 6.67,
     "estoque": 0
   },
   {
@@ -7617,7 +7617,7 @@
     "codigo": "002354",
     "descricao": "PONTEIRA DUPLA 110MM N 2",
     "valor": 7.78,
-    "estoque": 108
+    "estoque": 107
   },
   {
     "codigo": "002355",
@@ -7725,7 +7725,7 @@
     "codigo": "002372",
     "descricao": "UND PARAFUSO PHS 4.0X16 MM",
     "valor": 0.05,
-    "estoque": 82905
+    "estoque": 81705
   },
   {
     "codigo": "002373",
@@ -7743,7 +7743,7 @@
     "codigo": "002375",
     "descricao": "UND PARAFUSO PHS 4.0X25 MM",
     "valor": 0.06,
-    "estoque": 124130
+    "estoque": 123510
   },
   {
     "codigo": "002376",
@@ -7773,13 +7773,13 @@
     "codigo": "002380",
     "descricao": "UND PARAFUSO PHS 4.0X45 MM",
     "valor": 0.11,
-    "estoque": 85268
+    "estoque": 84868
   },
   {
     "codigo": "002381",
     "descricao": "UND PARAFUSO PHS 4.0X50 MM",
     "valor": 0.12,
-    "estoque": 87672
+    "estoque": 87656
   },
   {
     "codigo": "002382",
@@ -7809,7 +7809,7 @@
     "codigo": "002386",
     "descricao": "UND PARAFUSO PHS 5.0X50 MM",
     "valor": 0.2,
-    "estoque": 4678
+    "estoque": 4663
   },
   {
     "codigo": "002387",
@@ -7863,7 +7863,7 @@
     "codigo": "002395",
     "descricao": "UND PARAFUSO PHS 6.0X70 MM",
     "valor": 0.4,
-    "estoque": 40871
+    "estoque": 40821
   },
   {
     "codigo": "002396",
@@ -7892,7 +7892,7 @@
   {
     "codigo": "002434",
     "descricao": "TAPA FURO COPENAGEM",
-    "valor": 4.44,
+    "valor": 6.67,
     "estoque": 106
   },
   {
@@ -8283,7 +8283,7 @@
     "codigo": "002503",
     "descricao": "PUXADOR IRIS CROMADO 96MM",
     "valor": 9.52,
-    "estoque": 7
+    "estoque": 3
   },
   {
     "codigo": "002504",
@@ -8631,7 +8631,7 @@
     "codigo": "002562",
     "descricao": "PUXADOR PONTO PRETO 31,5MM",
     "valor": 9.27,
-    "estoque": 95
+    "estoque": 91
   },
   {
     "codigo": "002563",
@@ -9009,7 +9009,7 @@
     "codigo": "002626",
     "descricao": "PLACA MDF FP 15MM BRANCO TX 2 FACES",
     "valor": 261.0,
-    "estoque": 285
+    "estoque": 280
   },
   {
     "codigo": "002627",
@@ -9081,7 +9081,7 @@
     "codigo": "002638",
     "descricao": "PLACA MDF 06MM BRANCO TX 1 FACE",
     "valor": 177.78,
-    "estoque": 32
+    "estoque": 30
   },
   {
     "codigo": "002639",
@@ -9207,7 +9207,7 @@
     "codigo": "002659",
     "descricao": "PUXADOR MONACO 128MM SOBREPOR CROMADO",
     "valor": 7.33,
-    "estoque": 17
+    "estoque": 15
   },
   {
     "codigo": "002660",
@@ -9291,7 +9291,7 @@
     "codigo": "002675",
     "descricao": "PLACA MDF 15MM ELMO PALMARES 2 FACES",
     "valor": 383.33,
-    "estoque": 14
+    "estoque": 10
   },
   {
     "codigo": "002676",
@@ -9321,7 +9321,7 @@
     "codigo": "002680",
     "descricao": "PUXADOR ROSEL 128MM CINZA - SOPRANO",
     "valor": 4.67,
-    "estoque": 287
+    "estoque": 279
   },
   {
     "codigo": "002681",
@@ -9381,13 +9381,13 @@
     "codigo": "002690",
     "descricao": "FITA BORDA ELMO PALMARES 22MM",
     "valor": 37.78,
-    "estoque": 29
+    "estoque": 25
   },
   {
     "codigo": "002691",
     "descricao": "FITA BORDA ELMO PALMARES 35MM",
     "valor": 61.11,
-    "estoque": 12
+    "estoque": 10
   },
   {
     "codigo": "002692",
@@ -9664,5 +9664,59 @@
     "descricao": "DISCO CORTE INOX 7 X 1/16 X 7/8",
     "valor": 8.06,
     "estoque": 7
+  },
+  {
+    "codigo": "002740",
+    "descricao": "TAPA FURO AUREA IMPERIAL",
+    "valor": 6.67,
+    "estoque": 100
+  },
+  {
+    "codigo": "002741",
+    "descricao": "TAPA FURO CASTANHA DE CAJU",
+    "valor": 6.67,
+    "estoque": 100
+  },
+  {
+    "codigo": "002742",
+    "descricao": "TAPA FURO CINZA REAL",
+    "valor": 6.67,
+    "estoque": 100
+  },
+  {
+    "codigo": "002743",
+    "descricao": "TAPA FURO ELMO PALMARES",
+    "valor": 6.67,
+    "estoque": 100
+  },
+  {
+    "codigo": "002744",
+    "descricao": "TAPA FURO FREIJO PORO",
+    "valor": 6.67,
+    "estoque": 100
+  },
+  {
+    "codigo": "002745",
+    "descricao": "TAPA FURO LUAR",
+    "valor": 6.67,
+    "estoque": 100
+  },
+  {
+    "codigo": "002746",
+    "descricao": "TAPA FURO PEROBA DO BRASIL",
+    "valor": 6.67,
+    "estoque": 100
+  },
+  {
+    "codigo": "002747",
+    "descricao": "TAPA FURO PIMENTA DO REINO",
+    "valor": 6.67,
+    "estoque": 100
+  },
+  {
+    "codigo": "002748",
+    "descricao": "TAPA FURO POENTE",
+    "valor": 6.67,
+    "estoque": 100
   }
 ]
