@@ -20,6 +20,8 @@ import {
   TableRow,
 } from "@/components/ui/table";
 import { Badge } from "@/components/ui/badge";
+import { Cart } from "@/components/cart";
+import { AddToCartButton } from "@/components/add-to-cart-button";
 import produtosData from "@/data/produtos.json";
 
 interface Produto {
@@ -74,18 +76,21 @@ export default function Home() {
       {/* Header */}
       <header className="bg-white border-b shadow-sm sticky top-0 z-10">
         <div className="container mx-auto px-3 sm:px-4 py-4 sm:py-6">
-          <div className="flex items-center gap-2 sm:gap-3">
-            <div className="bg-primary rounded-lg p-1.5 sm:p-2">
-              <Package className="h-5 w-5 sm:h-6 sm:w-6 text-white" />
+          <div className="flex items-center justify-between gap-2 sm:gap-3">
+            <div className="flex items-center gap-2 sm:gap-3">
+              <div className="bg-primary rounded-lg p-1.5 sm:p-2">
+                <Package className="h-5 w-5 sm:h-6 sm:w-6 text-white" />
+              </div>
+              <div>
+                <h1 className="text-lg sm:text-2xl font-bold text-gray-900">
+                  Tabela de Preços e Estoque
+                </h1>
+                <p className="text-xs sm:text-sm text-gray-600 hidden sm:block">
+                  Consulte preços e disponibilidade de produtos
+                </p>
+              </div>
             </div>
-            <div>
-              <h1 className="text-lg sm:text-2xl font-bold text-gray-900">
-                Tabela de Preços e Estoque
-              </h1>
-              <p className="text-xs sm:text-sm text-gray-600 hidden sm:block">
-                Consulte preços e disponibilidade de produtos
-              </p>
-            </div>
+            <Cart />
           </div>
         </div>
       </header>
@@ -188,11 +193,16 @@ export default function Home() {
                       </div>
                       
                       {/* Estoque */}
-                      <div className="flex justify-between items-center pt-2 border-t">
+                      <div className="flex justify-between items-center pt-2 border-t mb-3">
                         <span className="text-xs text-gray-600">Estoque Disponível</span>
                         <span className="font-bold text-sm text-gray-900">
                           {produto.estoque} unidades
                         </span>
+                      </div>
+                      
+                      {/* Botão Adicionar */}
+                      <div className="pt-2">
+                        <AddToCartButton produto={produto} />
                       </div>
                     </div>
                   ))}
@@ -220,6 +230,9 @@ export default function Home() {
                         <TableHead className="font-semibold text-center">
                           Status
                         </TableHead>
+                        <TableHead className="font-semibold text-center">
+                          Ação
+                        </TableHead>
                       </TableRow>
                     </TableHeader>
                     <TableBody>
@@ -244,6 +257,9 @@ export default function Home() {
                           </TableCell>
                           <TableCell className="text-center">
                             {getEstoqueBadge(produto.estoque)}
+                          </TableCell>
+                          <TableCell className="text-center">
+                            <AddToCartButton produto={produto} />
                           </TableCell>
                         </TableRow>
                       ))}
