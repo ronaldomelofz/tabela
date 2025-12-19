@@ -79,6 +79,11 @@ export function Cart() {
     const url = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensagem)}`;
     
     window.open(url, "_blank");
+    
+    // Limpar carrinho e campos após envio
+    clearCart();
+    setNomeCliente("");
+    setTelefoneCliente("");
     setIsOpen(false);
   };
 
