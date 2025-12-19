@@ -3,13 +3,13 @@
     "codigo": "000007",
     "descricao": "SUPORTE L METAL P/FIXACAO RIGIDO",
     "valor": 1.22,
-    "estoque": 427
+    "estoque": 363
   },
   {
     "codigo": "000008",
     "descricao": "CAPA P/SUPORTE L FIXA BRANCO",
     "valor": 0.39,
-    "estoque": 2356
+    "estoque": 2318
   },
   {
     "codigo": "000009",
@@ -21,7 +21,7 @@
     "codigo": "000010",
     "descricao": "CAPA SUPORTE L FIXA PRETO",
     "valor": 0.39,
-    "estoque": 396
+    "estoque": 390
   },
   {
     "codigo": "000012",
@@ -39,13 +39,13 @@
     "codigo": "000025",
     "descricao": "DOBRADICA 35MM CURVA",
     "valor": 2.78,
-    "estoque": 2587
+    "estoque": 2572
   },
   {
     "codigo": "000026",
     "descricao": "DOBRADICA 35MM RETA",
     "valor": 2.78,
-    "estoque": 3647
+    "estoque": 3622
   },
   {
     "codigo": "000027",
@@ -111,7 +111,7 @@
     "codigo": "000102",
     "descricao": "RODIZIO SILICONE 50MM S/TV",
     "valor": 9.11,
-    "estoque": 5341
+    "estoque": 5289
   },
   {
     "codigo": "000103",
@@ -129,7 +129,7 @@
     "codigo": "000114",
     "descricao": "PASSA FIO 60 CIZA CRISTAL",
     "valor": 2.22,
-    "estoque": 391
+    "estoque": 390
   },
   {
     "codigo": "000115",
@@ -141,7 +141,7 @@
     "codigo": "000116",
     "descricao": "PASSA FIO 60 PRETO",
     "valor": 2.22,
-    "estoque": 528
+    "estoque": 525
   },
   {
     "codigo": "000117",
@@ -171,7 +171,7 @@
     "codigo": "000131",
     "descricao": "PISTAO 60N INVERSO",
     "valor": 14.45,
-    "estoque": 26
+    "estoque": 10
   },
   {
     "codigo": "000132",
@@ -201,13 +201,13 @@
     "codigo": "000139",
     "descricao": "BROCA ACO RAPIDO 7/64",
     "valor": 3.89,
-    "estoque": 1021
+    "estoque": 1012
   },
   {
     "codigo": "000142",
     "descricao": "DOBRADICA 35MM SUPER CURVA",
     "valor": 2.78,
-    "estoque": 1169
+    "estoque": 1167
   },
   {
     "codigo": "000143",
@@ -219,7 +219,7 @@
     "codigo": "000152",
     "descricao": "SAPATA REGULADOR 1/4 C/ BUCHA",
     "valor": 2.22,
-    "estoque": 1975
+    "estoque": 1973
   },
   {
     "codigo": "000153",
@@ -231,7 +231,7 @@
     "codigo": "000154",
     "descricao": "SAPATA PEQ C/ PREGO",
     "valor": 1.67,
-    "estoque": 1693
+    "estoque": 1663
   },
   {
     "codigo": "000155",
@@ -303,13 +303,13 @@
     "codigo": "000243",
     "descricao": "DOBRADICA PISTAO RETA 35MM",
     "valor": 4.44,
-    "estoque": 1112
+    "estoque": 1095
   },
   {
     "codigo": "000244",
     "descricao": "DOBRADICA PISTAO CURVA 35MM",
     "valor": 4.44,
-    "estoque": 2490
+    "estoque": 2415
   },
   {
     "codigo": "000248",
@@ -339,7 +339,7 @@
     "codigo": "000287",
     "descricao": "RODIZIO SILICONE 35MM S/TV",
     "valor": 7.78,
-    "estoque": 383
+    "estoque": 382
   },
   {
     "codigo": "000288",
@@ -387,7 +387,7 @@
     "codigo": "000300",
     "descricao": "COMPENSADO PARICA 10MM - 2,20X1,60MT",
     "valor": 172.22,
-    "estoque": 33
+    "estoque": 31
   },
   {
     "codigo": "000301",
@@ -411,7 +411,7 @@
     "codigo": "000306",
     "descricao": "SISTEMA RO-61",
     "valor": 35.54,
-    "estoque": 110
+    "estoque": 102
   },
   {
     "codigo": "000307",
@@ -429,7 +429,7 @@
     "codigo": "000309",
     "descricao": "BROCA SDS N 7",
     "valor": 11.11,
-    "estoque": 80
+    "estoque": 79
   },
   {
     "codigo": "000311",
@@ -507,7 +507,7 @@
     "codigo": "000347",
     "descricao": "PISTAO 60N",
     "valor": 12.22,
-    "estoque": 424
+    "estoque": 420
   },
   {
     "codigo": "000367",
@@ -531,7 +531,7 @@
     "codigo": "000370",
     "descricao": "SUPORTE PRATELEIRA INVISIVEL 300MM",
     "valor": 13.33,
-    "estoque": 65
+    "estoque": 59
   },
   {
     "codigo": "000377",
@@ -603,7 +603,7 @@
     "codigo": "000408",
     "descricao": "SERRA TICO-TICO - LAMINA",
     "valor": 16.11,
-    "estoque": 246
+    "estoque": 243
   },
   {
     "codigo": "000415",
@@ -681,7 +681,7 @@
     "codigo": "000441",
     "descricao": "BUCHA S-8 (TATU)",
     "valor": 0.17,
-    "estoque": 18480
+    "estoque": 18230
   },
   {
     "codigo": "000443",
@@ -801,7 +801,7 @@
     "codigo": "000475",
     "descricao": "ESQUADRETA 1045 CONJUNTO C/ 4 PCS",
     "valor": 11.0,
-    "estoque": 2733
+    "estoque": 2732
   },
   {
     "codigo": "000477",
@@ -819,19 +819,19 @@
     "codigo": "000479",
     "descricao": "CORREDICA 350MM TELESCOPICA LARGA",
     "valor": 14.32,
-    "estoque": 106
+    "estoque": 102
   },
   {
     "codigo": "000480",
     "descricao": "CORREDICA 400MM TELESCOPICA LARGA",
     "valor": 15.84,
-    "estoque": 461
+    "estoque": 453
   },
   {
     "codigo": "000481",
     "descricao": "CORREDICA 450MM TELESCOPICA LARGA",
     "valor": 15.77,
-    "estoque": 303
+    "estoque": 296
   },
   {
     "codigo": "000482",
@@ -843,31 +843,31 @@
     "codigo": "000483",
     "descricao": "CORREDICA 250MM TELESCOPICA LIGHT",
     "valor": 7.73,
-    "estoque": 385
+    "estoque": 381
   },
   {
     "codigo": "000484",
     "descricao": "CORREDICA 300MM TELESCOPICA LIGHT",
     "valor": 9.24,
-    "estoque": 1258
+    "estoque": 1252
   },
   {
     "codigo": "000485",
     "descricao": "CORREDICA 350MM TELESCOPICA LIGHT",
     "valor": 11.66,
-    "estoque": 31
+    "estoque": 23
   },
   {
     "codigo": "000486",
     "descricao": "CORREDICA 400MM TELESCOPICA LIGHT",
     "valor": 10.55,
-    "estoque": 393
+    "estoque": 389
   },
   {
     "codigo": "000487",
     "descricao": "CORREDICA 450MM TELESCOPICA LIGHT",
     "valor": 13.02,
-    "estoque": 515
+    "estoque": 512
   },
   {
     "codigo": "000488",
@@ -897,7 +897,7 @@
     "codigo": "000493",
     "descricao": "DOBRADICA 26MM CURVA",
     "valor": 3.33,
-    "estoque": 212
+    "estoque": 202
   },
   {
     "codigo": "000494",
@@ -909,7 +909,7 @@
     "codigo": "000499",
     "descricao": "MDF 03MM BRANCO 1 FACE",
     "valor": 138.33,
-    "estoque": 10
+    "estoque": 8
   },
   {
     "codigo": "000503",
@@ -981,7 +981,7 @@
     "codigo": "000534",
     "descricao": "PONTEIRA 1 POLEGADA N 2",
     "valor": 1.67,
-    "estoque": 1169
+    "estoque": 1161
   },
   {
     "codigo": "000535",
@@ -993,13 +993,13 @@
     "codigo": "000536",
     "descricao": "PORTA PANO 3 ARTES BRANCO",
     "valor": 62.22,
-    "estoque": 13
+    "estoque": 12
   },
   {
     "codigo": "000537",
     "descricao": "PORTA PANO 3 ARTES CROMADO",
     "valor": 74.44,
-    "estoque": 22
+    "estoque": 21
   },
   {
     "codigo": "000538",
@@ -1029,13 +1029,13 @@
     "codigo": "000542",
     "descricao": "TUBO CABIDEIRO REDONDO",
     "valor": 19.44,
-    "estoque": 129
+    "estoque": 127
   },
   {
     "codigo": "000543",
     "descricao": "TUBO CABIDEIRO OVAL",
     "valor": 19.44,
-    "estoque": 304
+    "estoque": 303
   },
   {
     "codigo": "000544",
@@ -1137,7 +1137,7 @@
     "codigo": "000579",
     "descricao": "CORRETIVO",
     "valor": 3.89,
-    "estoque": 66
+    "estoque": 65
   },
   {
     "codigo": "000581",
@@ -1185,7 +1185,7 @@
     "codigo": "000601",
     "descricao": "FITA BORDA 19MM BRANCO C/ 20 MT",
     "valor": 13.33,
-    "estoque": 175
+    "estoque": 174
   },
   {
     "codigo": "000602",
@@ -1263,7 +1263,7 @@
     "codigo": "000628",
     "descricao": "FITA BORDA 22MM BRANCO C/ 20 MT",
     "valor": 15.56,
-    "estoque": 42
+    "estoque": 41
   },
   {
     "codigo": "000630",
@@ -1395,7 +1395,7 @@
     "codigo": "000680",
     "descricao": "PVC BRANCO BRILHO",
     "valor": 66.11,
-    "estoque": 27
+    "estoque": 26
   },
   {
     "codigo": "000681",
@@ -1527,7 +1527,7 @@
     "codigo": "000716",
     "descricao": "ARCO DE SERRA STARRETT",
     "valor": 47.22,
-    "estoque": 25
+    "estoque": 24
   },
   {
     "codigo": "000718",
@@ -1653,7 +1653,7 @@
     "codigo": "000749",
     "descricao": "FECHO TOQUE MAGNETICO SOBREPOR",
     "valor": 4.44,
-    "estoque": 332
+    "estoque": 329
   },
   {
     "codigo": "000750",
@@ -1665,7 +1665,7 @@
     "codigo": "000751",
     "descricao": "BUCHA S-6 (TATU)",
     "valor": 0.09,
-    "estoque": 4113
+    "estoque": 4109
   },
   {
     "codigo": "000752",
@@ -1701,7 +1701,7 @@
     "codigo": "000763",
     "descricao": "TAPA FURO BRANCO",
     "valor": 5.0,
-    "estoque": 1707
+    "estoque": 1700
   },
   {
     "codigo": "000764",
@@ -1857,7 +1857,7 @@
     "codigo": "000845",
     "descricao": "BROCA ACO RAPIDO 11/64",
     "valor": 7.0,
-    "estoque": 40
+    "estoque": 36
   },
   {
     "codigo": "000846",
@@ -1923,7 +1923,7 @@
     "codigo": "000877",
     "descricao": "TAPA FURO BRANCO 19MM",
     "valor": 5.0,
-    "estoque": 1466
+    "estoque": 1465
   },
   {
     "codigo": "000888",
@@ -1983,7 +1983,7 @@
     "codigo": "000912",
     "descricao": "DOBRADICA PISTÃO CURVA 165º",
     "valor": 12.22,
-    "estoque": 76
+    "estoque": 70
   },
   {
     "codigo": "000913",
@@ -2097,7 +2097,7 @@
     "codigo": "000957",
     "descricao": "FITA BORDA CINZA CRISTAL 35MM",
     "valor": 61.11,
-    "estoque": 1
+    "estoque": 0
   },
   {
     "codigo": "000958",
@@ -2151,7 +2151,7 @@
     "codigo": "000995",
     "descricao": "THINNER SAYERLACK 0,9 L",
     "valor": 25.56,
-    "estoque": 65
+    "estoque": 64
   },
   {
     "codigo": "001002",
@@ -2211,7 +2211,7 @@
     "codigo": "001021",
     "descricao": "SUPORTE CABIDE REDONDO",
     "valor": 1.67,
-    "estoque": 253
+    "estoque": 241
   },
   {
     "codigo": "001022",
@@ -2271,7 +2271,7 @@
     "codigo": "001049",
     "descricao": "LAPIS CARPINTEIRO",
     "valor": 4.44,
-    "estoque": 284
+    "estoque": 283
   },
   {
     "codigo": "001050",
@@ -2481,7 +2481,7 @@
     "codigo": "001135",
     "descricao": "PE QUADRADO FIXO 120MM",
     "valor": 23.34,
-    "estoque": 93
+    "estoque": 83
   },
   {
     "codigo": "001136",
@@ -2529,13 +2529,13 @@
     "codigo": "001143",
     "descricao": "CANTONEIRA 13X13 MACICA CROMADA",
     "valor": 0.39,
-    "estoque": 8782
+    "estoque": 8402
   },
   {
     "codigo": "001144",
     "descricao": "PINO PRATELEIRA REDONDO BRANCO",
     "valor": 0.17,
-    "estoque": 22687
+    "estoque": 22537
   },
   {
     "codigo": "001145",
@@ -2913,7 +2913,7 @@
     "codigo": "001276",
     "descricao": "DOBRADIÇA 3.1/2 POLEGADAS",
     "valor": 4.0,
-    "estoque": 128
+    "estoque": 125
   },
   {
     "codigo": "001277",
@@ -2973,7 +2973,7 @@
     "codigo": "001299",
     "descricao": "FECHADURA 1006 PARA PORTA DE CORRER STAM",
     "valor": 121.12,
-    "estoque": 16
+    "estoque": 15
   },
   {
     "codigo": "001306",
@@ -3267,13 +3267,13 @@
     "codigo": "001487",
     "descricao": "PUXADOR PONTO INOX 23MM",
     "valor": 3.89,
-    "estoque": 1148
+    "estoque": 1138
   },
   {
     "codigo": "001488",
     "descricao": "PUXADOR PONTO INOX 27MM",
     "valor": 4.44,
-    "estoque": 648
+    "estoque": 646
   },
   {
     "codigo": "001489",
@@ -3441,7 +3441,7 @@
     "codigo": "001561",
     "descricao": "FECHADURA CILINDRO 22MM",
     "valor": 8.89,
-    "estoque": 420
+    "estoque": 388
   },
   {
     "codigo": "001562",
@@ -3483,7 +3483,7 @@
     "codigo": "001573",
     "descricao": "FILME STRETCH ROLO 200G",
     "valor": 13.33,
-    "estoque": 667
+    "estoque": 666
   },
   {
     "codigo": "001576",
@@ -3494,14 +3494,14 @@
   {
     "codigo": "001577",
     "descricao": "DOBRADICA PISTAO CLICK CURVA 35MM",
-    "valor": 4.44,
-    "estoque": 1006
+    "valor": 2.22,
+    "estoque": 996
   },
   {
     "codigo": "001578",
     "descricao": "DOBRADICA PISTAO CLICK RETA 35MM",
-    "valor": 5.89,
-    "estoque": 2395
+    "valor": 2.22,
+    "estoque": 2375
   },
   {
     "codigo": "001579",
@@ -3603,7 +3603,7 @@
     "codigo": "001597",
     "descricao": "COLA INSTANTANEA 7BOND 100G",
     "valor": 17.78,
-    "estoque": 142
+    "estoque": 140
   },
   {
     "codigo": "001598",
@@ -3951,7 +3951,7 @@
     "codigo": "001684",
     "descricao": "PASSA FIO 46 PRETO",
     "valor": 2.22,
-    "estoque": 364
+    "estoque": 359
   },
   {
     "codigo": "001685",
@@ -4125,13 +4125,13 @@
     "codigo": "001717",
     "descricao": "RODIZIO 210 PRETO SEM FREIO (6048)",
     "valor": 17.78,
-    "estoque": 82
+    "estoque": 74
   },
   {
     "codigo": "001718",
     "descricao": "RODIZIO 158 PRETO SEM FREIO (6045)",
     "valor": 15.29,
-    "estoque": 103
+    "estoque": 99
   },
   {
     "codigo": "001719",
@@ -4179,7 +4179,7 @@
     "codigo": "001727",
     "descricao": "ESTOPA PARA POLIMENTO 150GR",
     "valor": 4.22,
-    "estoque": 19
+    "estoque": 15
   },
   {
     "codigo": "001728",
@@ -4203,7 +4203,7 @@
     "codigo": "001735",
     "descricao": "BUCHA FR NYLON N8",
     "valor": 0.28,
-    "estoque": 1578
+    "estoque": 1568
   },
   {
     "codigo": "001736",
@@ -4215,13 +4215,13 @@
     "codigo": "001737",
     "descricao": "BUCHA PARA GESSO GDP2",
     "valor": 0.39,
-    "estoque": 3326
+    "estoque": 3256
   },
   {
     "codigo": "001738",
     "descricao": "BUCHA PARA GESSO GDP3",
     "valor": 0.39,
-    "estoque": 5110
+    "estoque": 5090
   },
   {
     "codigo": "001739",
@@ -4251,7 +4251,7 @@
     "codigo": "001747",
     "descricao": "COLA CONTATO UNA 0.750 KG",
     "valor": 34.44,
-    "estoque": 108
+    "estoque": 103
   },
   {
     "codigo": "001748",
@@ -4395,7 +4395,7 @@
     "codigo": "001781",
     "descricao": "BATENTE SILICONE 13MM C/ 48 UND",
     "valor": 15.55,
-    "estoque": 58
+    "estoque": 57
   },
   {
     "codigo": "001782",
@@ -4743,7 +4743,7 @@
     "codigo": "001843",
     "descricao": "PUXADOR BAUMINO 128MM GRAFITE",
     "valor": 7.33,
-    "estoque": 35
+    "estoque": 32
   },
   {
     "codigo": "001844",
@@ -4893,7 +4893,7 @@
     "codigo": "001870",
     "descricao": "PUXADOR LAUREN 64MM COBRE FOSCO",
     "valor": 7.33,
-    "estoque": 20
+    "estoque": 18
   },
   {
     "codigo": "001871",
@@ -4959,7 +4959,7 @@
     "codigo": "001881",
     "descricao": "PUXADOR GRACE PONTUAL CHAMPAGNE FOSCO",
     "valor": 5.56,
-    "estoque": 22
+    "estoque": 20
   },
   {
     "codigo": "001882",
@@ -4983,7 +4983,7 @@
     "codigo": "001885",
     "descricao": "PE PALITO 170MM PRETO",
     "valor": 7.22,
-    "estoque": 64
+    "estoque": 60
   },
   {
     "codigo": "001886",
@@ -5379,7 +5379,7 @@
     "codigo": "001958",
     "descricao": "CORREDICA 300MM TOQUE",
     "valor": 31.11,
-    "estoque": 179
+    "estoque": 175
   },
   {
     "codigo": "001959",
@@ -5390,8 +5390,8 @@
   {
     "codigo": "001960",
     "descricao": "DOBRADICA PISTAO CLICK SUPER CURVA 35MM",
-    "valor": 5.89,
-    "estoque": 1319
+    "valor": 2.22,
+    "estoque": 1299
   },
   {
     "codigo": "001961",
@@ -5661,7 +5661,7 @@
     "codigo": "002008",
     "descricao": "SISTEMA RO-7502U (DN80)",
     "valor": 54.9,
-    "estoque": 18
+    "estoque": 17
   },
   {
     "codigo": "002009",
@@ -5709,7 +5709,7 @@
     "codigo": "002016",
     "descricao": "PERFIL PARA PORTA 1036 6MT CHAMPANHE",
     "valor": 166.44,
-    "estoque": 34
+    "estoque": 33
   },
   {
     "codigo": "002017",
@@ -5889,7 +5889,7 @@
     "codigo": "002049",
     "descricao": "SUPORTE CABIDE REDONDO CANTO 90º",
     "valor": 26.67,
-    "estoque": 22
+    "estoque": 21
   },
   {
     "codigo": "002050",
@@ -6213,7 +6213,7 @@
     "codigo": "002112",
     "descricao": "TRILHO 022 MATE ESCURO (RO61/RO 65) 6MT - INFERIOR",
     "valor": 147.6,
-    "estoque": 11
+    "estoque": 10
   },
   {
     "codigo": "002113",
@@ -6225,7 +6225,7 @@
     "codigo": "002114",
     "descricao": "TRILHO 030 MATE ESCURO (RO61/RO 65) 6MT - SUPERIOR",
     "valor": 240.01,
-    "estoque": 9
+    "estoque": 8
   },
   {
     "codigo": "002115",
@@ -6357,7 +6357,7 @@
     "codigo": "002136",
     "descricao": "COLA INSTANTANEA AFIX 100G",
     "valor": 23.33,
-    "estoque": 67
+    "estoque": 65
   },
   {
     "codigo": "002137",
@@ -6549,7 +6549,7 @@
     "codigo": "002174",
     "descricao": "PUXADOR SOPHIA PONTUAL OURO FOSCO",
     "valor": 6.44,
-    "estoque": 41
+    "estoque": 39
   },
   {
     "codigo": "002175",
@@ -7233,7 +7233,7 @@
     "codigo": "002289",
     "descricao": "PUXADOR IRIS PRETO 96MM",
     "valor": 8.27,
-    "estoque": 85
+    "estoque": 79
   },
   {
     "codigo": "002290",
@@ -7473,7 +7473,7 @@
     "codigo": "002330",
     "descricao": "FECHADURA HELA 2020 40MM PIVOTANTE",
     "valor": 71.67,
-    "estoque": 2
+    "estoque": 1
   },
   {
     "codigo": "002331",
@@ -7575,7 +7575,7 @@
     "codigo": "002347",
     "descricao": "CANTONEIRA LOTUS 16X25CM",
     "valor": 8.02,
-    "estoque": 35
+    "estoque": 31
   },
   {
     "codigo": "002348",
@@ -7617,7 +7617,7 @@
     "codigo": "002354",
     "descricao": "PONTEIRA DUPLA 110MM N 2",
     "valor": 7.78,
-    "estoque": 107
+    "estoque": 106
   },
   {
     "codigo": "002355",
@@ -7665,7 +7665,7 @@
     "codigo": "002362",
     "descricao": "DOBRADIÇA PINO REVERSÍVEL 1 POL LEVE GALVANIZADO",
     "valor": 3.33,
-    "estoque": 160
+    "estoque": 152
   },
   {
     "codigo": "002363",
@@ -7683,7 +7683,7 @@
     "codigo": "002365",
     "descricao": "SISTEMA AC 07 - DETONI (DN80) PROMOÇÃO",
     "valor": 27.78,
-    "estoque": 49
+    "estoque": 48
   },
   {
     "codigo": "002366",
@@ -7707,7 +7707,7 @@
     "codigo": "002369",
     "descricao": "UND PARAFUSO PHS 3.5X16 MM",
     "valor": 0.05,
-    "estoque": 60478
+    "estoque": 60278
   },
   {
     "codigo": "002370",
@@ -7719,67 +7719,67 @@
     "codigo": "002371",
     "descricao": "UND PARAFUSO PHS 3.5X40 MM",
     "valor": 0.09,
-    "estoque": 31048
+    "estoque": 30948
   },
   {
     "codigo": "002372",
     "descricao": "UND PARAFUSO PHS 4.0X16 MM",
     "valor": 0.05,
-    "estoque": 81705
+    "estoque": 80855
   },
   {
     "codigo": "002373",
     "descricao": "UND PARAFUSO PHS 4.0X16 MM FLANGEADO",
     "valor": 0.06,
-    "estoque": 10613
+    "estoque": 10581
   },
   {
     "codigo": "002374",
     "descricao": "UND PARAFUSO PHS 4.0X20 MM",
     "valor": 0.06,
-    "estoque": 35910
+    "estoque": 35762
   },
   {
     "codigo": "002375",
     "descricao": "UND PARAFUSO PHS 4.0X25 MM",
     "valor": 0.06,
-    "estoque": 123510
+    "estoque": 123270
   },
   {
     "codigo": "002376",
     "descricao": "UND PARAFUSO PHS 4.0X25 MM FLANGEADO",
     "valor": 0.09,
-    "estoque": 26294
+    "estoque": 26262
   },
   {
     "codigo": "002377",
     "descricao": "UND PARAFUSO PHS 4.0X30 MM",
     "valor": 0.08,
-    "estoque": 25776
+    "estoque": 25676
   },
   {
     "codigo": "002378",
     "descricao": "UND PARAFUSO PHS 4.0X35 MM",
     "valor": 0.09,
-    "estoque": 53453
+    "estoque": 53449
   },
   {
     "codigo": "002379",
     "descricao": "UND PARAFUSO PHS 4.0X40 MM",
     "valor": 0.1,
-    "estoque": 148498
+    "estoque": 147998
   },
   {
     "codigo": "002380",
     "descricao": "UND PARAFUSO PHS 4.0X45 MM",
     "valor": 0.11,
-    "estoque": 84868
+    "estoque": 84118
   },
   {
     "codigo": "002381",
     "descricao": "UND PARAFUSO PHS 4.0X50 MM",
     "valor": 0.12,
-    "estoque": 87656
+    "estoque": 87056
   },
   {
     "codigo": "002382",
@@ -7797,7 +7797,7 @@
     "codigo": "002384",
     "descricao": "UND PARAFUSO PHS 5.0X25 MM FLANGEADO",
     "valor": 0.24,
-    "estoque": 2578
+    "estoque": 2558
   },
   {
     "codigo": "002385",
@@ -7827,7 +7827,7 @@
     "codigo": "002389",
     "descricao": "UND PARAFUSO PHS 5.0X70 MM",
     "valor": 0.28,
-    "estoque": 5531
+    "estoque": 5431
   },
   {
     "codigo": "002390",
@@ -7857,13 +7857,13 @@
     "codigo": "002394",
     "descricao": "UND PARAFUSO PHS 6.0X60 MM FLANGEADO",
     "valor": 0.4,
-    "estoque": 15958
+    "estoque": 15952
   },
   {
     "codigo": "002395",
     "descricao": "UND PARAFUSO PHS 6.0X70 MM",
     "valor": 0.4,
-    "estoque": 40821
+    "estoque": 40771
   },
   {
     "codigo": "002396",
@@ -7875,7 +7875,7 @@
     "codigo": "002397",
     "descricao": "UND PARAFUSO PHS 6.0X90 MM",
     "valor": 0.51,
-    "estoque": 7415
+    "estoque": 7385
   },
   {
     "codigo": "002432",
@@ -8133,7 +8133,7 @@
     "codigo": "002478",
     "descricao": "CANTONEIRA FLEX 80X20 LOTUS",
     "valor": 3.03,
-    "estoque": 109
+    "estoque": 101
   },
   {
     "codigo": "002479",
@@ -8217,7 +8217,7 @@
     "codigo": "002492",
     "descricao": "SAPATA 17X11,5 C/PREGO PRETA",
     "valor": 0.73,
-    "estoque": 34
+    "estoque": 14
   },
   {
     "codigo": "002493",
@@ -8241,7 +8241,7 @@
     "codigo": "002496",
     "descricao": "PE PALITO 170MM CANELATTO",
     "valor": 7.22,
-    "estoque": 307
+    "estoque": 291
   },
   {
     "codigo": "002497",
@@ -8757,7 +8757,7 @@
     "codigo": "002583",
     "descricao": "FITA BORDA PROA 35MM",
     "valor": 61.11,
-    "estoque": 12
+    "estoque": 11
   },
   {
     "codigo": "002584",
@@ -8817,7 +8817,7 @@
     "codigo": "002593",
     "descricao": "PORTA GARRAFAS LATERAL 115X420X460 MM CR",
     "valor": 172.23,
-    "estoque": 54
+    "estoque": 53
   },
   {
     "codigo": "002594",
@@ -9009,7 +9009,7 @@
     "codigo": "002626",
     "descricao": "PLACA MDF FP 15MM BRANCO TX 2 FACES",
     "valor": 261.0,
-    "estoque": 280
+    "estoque": 257
   },
   {
     "codigo": "002627",
@@ -9051,7 +9051,7 @@
     "codigo": "002633",
     "descricao": "PLACA MDF 06MM CASTANHA DE CAJU 2 FACES",
     "valor": 261.11,
-    "estoque": 15
+    "estoque": 12
   },
   {
     "codigo": "002634",
@@ -9075,13 +9075,13 @@
     "codigo": "002637",
     "descricao": "PLACA MDF 06MM BRANCO TX 2 FACES",
     "valor": 211.0,
-    "estoque": 46
+    "estoque": 44
   },
   {
     "codigo": "002638",
     "descricao": "PLACA MDF 06MM BRANCO TX 1 FACE",
     "valor": 177.78,
-    "estoque": 30
+    "estoque": 29
   },
   {
     "codigo": "002639",
@@ -9321,7 +9321,7 @@
     "codigo": "002680",
     "descricao": "PUXADOR ROSEL 128MM CINZA - SOPRANO",
     "valor": 4.67,
-    "estoque": 279
+    "estoque": 268
   },
   {
     "codigo": "002681",
@@ -9375,7 +9375,7 @@
     "codigo": "002689",
     "descricao": "FITA BORDA CASTANHA DE CAJU 65MM",
     "valor": 113.33,
-    "estoque": 2
+    "estoque": 1
   },
   {
     "codigo": "002690",
@@ -9555,7 +9555,7 @@
     "codigo": "002719",
     "descricao": "GUIA PRATICO ACETINADO",
     "valor": 19.33,
-    "estoque": 50
+    "estoque": 49
   },
   {
     "codigo": "002720",
@@ -9615,7 +9615,7 @@
     "codigo": "002729",
     "descricao": "KIT PORTA CORRER - 715",
     "valor": 140.0,
-    "estoque": 6
+    "estoque": 3
   },
   {
     "codigo": "002730",
@@ -9675,7 +9675,7 @@
     "codigo": "002741",
     "descricao": "TAPA FURO CASTANHA DE CAJU",
     "valor": 6.67,
-    "estoque": 100
+    "estoque": 99
   },
   {
     "codigo": "002742",
